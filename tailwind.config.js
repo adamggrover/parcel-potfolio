@@ -11,7 +11,13 @@ module.exports = {
       '6': '6px',
       '8': '8px',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        clean: ['Source Sans 3', 'sans-serif'],
+        body: ['Source Code Pro', 'monospace']
+        
+      }
+    },
   },
   plugins: [],
 }

@@ -7,13 +7,13 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex py-20 px-6 md:flex-row flex-col items-center max-w-5xl">
         <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className=" sm:text-4xl font-light text-6xl mb-1 text-slate-950">
+          <h1 className=" sm:text-5xl font-light mb-1 text-slate-950 font-clean">
             Hi, I'm Adam.
           </h1>
             <br className="hidden lg:inline-block" />
-            <h3 className=" text-2xl text-gray-600 mb-3">I'm a developer based in Bristol.</h3>
+            <h3 className=" text-xl text-gray-600 mb-4 font-clean font-light">I'm a developer based in Bristol.</h3>
           
-          <p className="mb-8 leading-relaxed text-gray-600">
+          <p className="mb-8 leading-relaxed text-gray-400 font-body text-sm">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
             laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
             Laborum, voluptas natus?

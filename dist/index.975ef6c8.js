@@ -27172,7 +27172,7 @@ var _testimonials = require("./components/Testimonials");
 var _testimonialsDefault = parcelHelpers.interopDefault(_testimonials);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-        className: "text-gray-200 bg-zinc-50 body-font",
+        className: "text-gray-200 bg-zinc-50",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
@@ -27412,7 +27412,7 @@ function About() {
                     className: "lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: " sm:text-4xl font-light text-6xl mb-1 text-slate-950",
+                            className: " sm:text-5xl font-light mb-1 text-slate-950 font-clean",
                             children: "Hi, I'm Adam."
                         }, void 0, false, {
                             fileName: "src/components/About.js",
@@ -27427,7 +27427,7 @@ function About() {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                            className: " text-2xl text-gray-600 mb-3",
+                            className: " text-xl text-gray-600 mb-4 font-clean font-light",
                             children: "I'm a developer based in Bristol."
                         }, void 0, false, {
                             fileName: "src/components/About.js",
@@ -27435,7 +27435,7 @@ function About() {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "mb-8 leading-relaxed text-gray-600",
+                            className: "mb-8 leading-relaxed text-gray-400 font-body text-sm",
                             children: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum quasi, incidunt dolore iste nostrum cupiditate voluptas? Laborum, voluptas natus?"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
@@ -27836,13 +27836,13 @@ function Navbar() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
         className: "bg-slate-950 md:sticky top-0 z-10",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container mx-auto flex flex-wrap py-5 px-6 flex-col md:flex-row items-center max-w-5xl font-light",
+            className: "container mx-auto flex flex-wrap py-7 px-6 flex-col md:flex-row items-center max-w-5xl font-light",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    className: "title-font  text-white mb-4 md:mb-0",
+                    className: "text-white mb-4 md:mb-0",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "#about",
-                        className: "text-xl",
+                        className: "text-2xl font-clean",
                         children: "Adam Grover"
                     }, void 0, false, {
                         fileName: "src/components/Navbar.js",
@@ -27855,7 +27855,7 @@ function Navbar() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                    className: "md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center",
+                    className: "md:ml-auto md:mr-6 md:py-1 md:pl-4  flex flex-wrap items-center text-xs justify-center font-body",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                             href: "#projects",
@@ -27892,7 +27892,7 @@ function Navbar() {
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                     href: "#contact",
-                    className: "inline-flex items-center border-2 border-white px-3 focus:outline-none font-medium hover:bg-gray-700 text-xs mt-4 md:mt-0",
+                    className: "font-body tracking-wide inline-flex items-center border-2 border-white px-4 py-2 focus:outline-none font-medium hover:bg-gray-700 text-xs mt-4 md:mt-0",
                     children: "CONTACT"
                 }, void 0, false, {
                     fileName: "src/components/Navbar.js",
@@ -35505,7 +35505,7 @@ function Projects() {
         id: "projects",
         className: "text-gray-400 bg-zinc-50 body-font",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container px-6 py-10 mx-auto text-left max-w-5xl",
+            className: "container px-6 py-10 mx-auto text-left max-w-5xl font-body  ",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/components/Projects.js",
@@ -35516,15 +35516,15 @@ function Projects() {
                     className: "flex flex-col w-full mb-20 mt-1",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: "sm:text-4xl text-3xl font-medium title-font mb-4 text-slate-950",
-                            children: "Projects"
+                            className: "text-sm  font-medium mb-4 mt-2 text-slate-950",
+                            children: "PROJECTS"
                         }, void 0, false, {
                             fileName: "src/components/Projects.js",
                             lineNumber: 14,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "lg:w-2/3 mx-auto leading-relaxed text-base",
+                            className: "lg:w-2/3 mx-auto leading-relaxed text-sm",
                             children: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam fuga dolore."
                         }, void 0, false, {
                             fileName: "src/components/Projects.js",
