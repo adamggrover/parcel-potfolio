@@ -10,15 +10,15 @@ export default function Projects() {
       
       <div className="container px-6 py-10 mx-auto text-left max-w-5xl font-body  ">
       <hr></hr>
-        <div className="flex flex-col w-full mb-20 mt-1">
-          <h1 className="text-sm  font-medium mb-4 mt-2 text-slate-950">
+        <div className="flex flex-col w-full mt-1">
+          <h1 className="text-sm  font-medium mb-10 mt-2 text-slate-950">
             PROJECTS
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
+          {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
             facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
             fuga dolore.
-          </p>
+          </p> */}
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (

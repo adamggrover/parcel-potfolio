@@ -15,7 +15,7 @@ export function App() {
       <About />
       <Projects />
       <Skills />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
     </main>
   );

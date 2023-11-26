@@ -27194,11 +27194,6 @@ function App() {
                 lineNumber: 17,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _testimonialsDefault.default), {}, void 0, false, {
-                fileName: "src/App.js",
-                lineNumber: 18,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 19,
@@ -35513,26 +35508,16 @@ function Projects() {
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex flex-col w-full mb-20 mt-1",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: "text-sm  font-medium mb-4 mt-2 text-slate-950",
-                            children: "PROJECTS"
-                        }, void 0, false, {
-                            fileName: "src/components/Projects.js",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "lg:w-2/3 mx-auto leading-relaxed text-sm",
-                            children: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam fuga dolore."
-                        }, void 0, false, {
-                            fileName: "src/components/Projects.js",
-                            lineNumber: 17,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                    className: "flex flex-col w-full mt-1",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "text-sm  font-medium mb-10 mt-2 text-slate-950",
+                        children: "PROJECTS"
+                    }, void 0, false, {
+                        fileName: "src/components/Projects.js",
+                        lineNumber: 14,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
                     fileName: "src/components/Projects.js",
                     lineNumber: 13,
                     columnNumber: 9
@@ -35758,42 +35743,30 @@ function Skills() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "skills",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container px-5 py-10 mx-auto",
+            className: "container px-6 py-10 max-w-5xl font-body mx-auto",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "text-center mb-20",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _solid.CpuChipIcon), {
-                            className: "w-10 inline-block mb-4"
-                        }, void 0, false, {
-                            fileName: "src/components/Skills.js",
-                            lineNumber: 12,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: "sm:text-4xl text-3xl font-medium title-font text-white mb-4",
-                            children: "Skills & Technologies"
-                        }, void 0, false, {
-                            fileName: "src/components/Skills.js",
-                            lineNumber: 13,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto",
-                            children: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit ipsa delectus eum quo voluptas aspernatur accusantium distinctio possimus est."
-                        }, void 0, false, {
-                            fileName: "src/components/Skills.js",
-                            lineNumber: 16,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/components/Skills.js",
                     lineNumber: 11,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2",
+                    className: " mb-20",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "text-sm  font-medium mb-10 mt-2 text-slate-950",
+                        children: "SKILLS"
+                    }, void 0, false, {
+                        fileName: "src/components/Skills.js",
+                        lineNumber: 13,
+                        columnNumber: 9
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/Skills.js",
+                    lineNumber: 12,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex flex-wrap w-full sm:mx-auto sm:mb-2 -mx-2",
                     children: (0, _data.skills).map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "p-2 sm:w-1/2 w-full",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35803,7 +35776,7 @@ function Skills() {
                                         className: "text-green-400 w-6 h-6 flex-shrink-0 mr-4"
                                     }, void 0, false, {
                                         fileName: "src/components/Skills.js",
-                                        lineNumber: 26,
+                                        lineNumber: 22,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -35811,23 +35784,23 @@ function Skills() {
                                         children: skill
                                     }, void 0, false, {
                                         fileName: "src/components/Skills.js",
-                                        lineNumber: 27,
+                                        lineNumber: 23,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Skills.js",
-                                lineNumber: 25,
+                                lineNumber: 21,
                                 columnNumber: 15
                             }, this)
                         }, skill, false, {
                             fileName: "src/components/Skills.js",
-                            lineNumber: 24,
+                            lineNumber: 20,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "src/components/Skills.js",
-                    lineNumber: 22,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, this)
             ]
