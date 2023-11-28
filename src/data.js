@@ -63,3 +63,41 @@ export const skills = [
   "GraphQL",
   "Material UI",
 ];
+
+export const blogs = [
+
+  {
+    title: "React Reserve",
+    subtitle: "MERN Stack",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: p1gif,
+    link: "https://reactbootcamp.com",
+  },
+  {
+    title: "React Tracks",
+    subtitle: "React and Python",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: p2gif,
+    link: "https://reactbootcamp.com",
+  },
+  {
+    title: "DevChat",
+    subtitle: "React and Firebase",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: p3gif,
+    link: "https://reactbootcamp.com",
+  },
+  {
+    title: "Epic Todo App",
+    subtitle: "React Hooks",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: p4gif,
+    link: "https://reactbootcamp.com",
+  },
+
+
+]

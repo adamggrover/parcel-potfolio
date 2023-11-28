@@ -27168,41 +27168,48 @@ var _projects = require("./components/Projects");
 var _projectsDefault = parcelHelpers.interopDefault(_projects);
 var _skills = require("./components/Skills");
 var _skillsDefault = parcelHelpers.interopDefault(_skills);
-var _testimonials = require("./components/Testimonials");
-var _testimonialsDefault = parcelHelpers.interopDefault(_testimonials);
+var _foot = require("./components/Foot");
+var _footDefault = parcelHelpers.interopDefault(_foot);
+var _blog = require("./components/Blog");
+var _blogDefault = parcelHelpers.interopDefault(_blog);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
         className: "text-gray-200 bg-zinc-50",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 14,
+                lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 15,
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 17,
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 19,
+                lineNumber: 20,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 21,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 5
     }, this);
 }
@@ -27215,7 +27222,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Navbar":"5EEXV","./components/Projects":"16pwG","./components/Skills":"OHDzu","./components/Testimonials":"jiq6n","react":"21dqq"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Navbar":"5EEXV","./components/Projects":"16pwG","./components/Skills":"OHDzu","react":"21dqq","./components/Blog":"bw17m","./components/Foot":"dmc9W"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27397,28 +27404,30 @@ parcelHelpers.export(exports, "default", ()=>About);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _profileImgJpg = require("../assets/profile-img.jpg");
+var _profileImgJpgDefault = parcelHelpers.interopDefault(_profileImgJpg);
 function About() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "about",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container mx-auto flex py-20 px-6 md:flex-row flex-col items-center max-w-5xl",
+            className: "container mx-auto flex pt-20 px-6 md:flex-row flex-col items-center max-w-5xl",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center",
+                    className: "lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                             className: " sm:text-5xl font-light mb-1 text-slate-950 font-clean",
                             children: "Hi, I'm Adam."
                         }, void 0, false, {
                             fileName: "src/components/About.js",
-                            lineNumber: 10,
+                            lineNumber: 11,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {
                             className: "hidden lg:inline-block"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
-                            lineNumber: 13,
+                            lineNumber: 14,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
@@ -27426,15 +27435,15 @@ function About() {
                             children: "I'm a developer based in Bristol."
                         }, void 0, false, {
                             fileName: "src/components/About.js",
-                            lineNumber: 14,
+                            lineNumber: 15,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "mb-8 leading-relaxed text-gray-400 font-body text-sm",
+                            className: "mb-10 leading-relaxed text-gray-400 font-body text-sm",
                             children: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum quasi, incidunt dolore iste nostrum cupiditate voluptas? Laborum, voluptas natus?"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
-                            lineNumber: 16,
+                            lineNumber: 17,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27442,66 +27451,66 @@ function About() {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                     href: "#contact",
-                                    className: "inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg",
-                                    children: "Work With Me"
+                                    className: "inline-flex text-white bg-slate-950 border-0 py-2 px-6 focus:outline-none hover:bg-amber-400 text-sm font-body font-light tracking-wide",
+                                    children: "WORK WITH ME"
                                 }, void 0, false, {
                                     fileName: "src/components/About.js",
-                                    lineNumber: 22,
+                                    lineNumber: 23,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                     href: "#projects",
-                                    className: "ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg",
-                                    children: "See My Past Work"
+                                    className: "ml-4 inline-flex text-gray-100 bg-slate-950 border-0 py-2 px-6 focus:outline-none hover:bg-amber-400 hover:text-white text-sm font-body font-light",
+                                    children: "SEE MY PAST WORK"
                                 }, void 0, false, {
                                     fileName: "src/components/About.js",
-                                    lineNumber: 27,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/About.js",
-                            lineNumber: 21,
+                            lineNumber: 22,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/About.js",
-                    lineNumber: 9,
+                    lineNumber: 10,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "pl-10 md:w-1/2 w-5/6",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "object-cover object-center rounded",
+                        className: "object-cover object-center",
                         alt: "hero",
-                        src: "./coding.svg"
+                        src: (0, _profileImgJpgDefault.default)
                     }, void 0, false, {
                         fileName: "src/components/About.js",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/About.js",
-                    lineNumber: 34,
+                    lineNumber: 35,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
                     className: "mb-8 text-gray-400"
                 }, void 0, false, {
                     fileName: "src/components/About.js",
-                    lineNumber: 41,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/About.js",
-            lineNumber: 8,
+            lineNumber: 9,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/About.js",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
@@ -27514,7 +27523,45 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cgAOG":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/profile-img.jpg":"kiUB3"}],"kiUB3":[function(require,module,exports) {
+module.exports = require("8ecfcc2eb6505fa4").getBundleURL("bLxZJ") + "profile-img.0885cc3e.jpg" + "?" + Date.now();
+
+},{"8ecfcc2eb6505fa4":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"cgAOG":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ee46 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27556,242 +27603,128 @@ function Contact() {
         id: "contact",
         className: "relative",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                            width: "100%",
-                            height: "100%",
-                            title: "map",
-                            className: "absolute inset-0",
-                            frameBorder: 0,
-                            marginHeight: 0,
-                            marginWidth: 0,
-                            style: {
-                                filter: "opacity(0.7)"
-                            },
-                            src: "https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-                        }, void 0, false, {
-                            fileName: "src/components/Contact.js",
-                            lineNumber: 33,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "lg:w-1/2 px-6",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                            className: "title-font font-semibold text-white tracking-widest text-xs",
-                                            children: "ADDRESS"
-                                        }, void 0, false, {
-                                            fileName: "src/components/Contact.js",
-                                            lineNumber: 46,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            className: "mt-1",
-                                            children: [
-                                                "97 Warren St. ",
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                                    fileName: "src/components/Contact.js",
-                                                    lineNumber: 50,
-                                                    columnNumber: 33
-                                                }, this),
-                                                "New York, NY 10007"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/Contact.js",
-                                            lineNumber: 49,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/Contact.js",
-                                    lineNumber: 45,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "lg:w-1/2 px-6 mt-4 lg:mt-0",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                            className: "title-font font-semibold text-white tracking-widest text-xs",
-                                            children: "EMAIL"
-                                        }, void 0, false, {
-                                            fileName: "src/components/Contact.js",
-                                            lineNumber: 55,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                            className: "text-indigo-400 leading-relaxed",
-                                            children: "reedbarger@email.com"
-                                        }, void 0, false, {
-                                            fileName: "src/components/Contact.js",
-                                            lineNumber: 58,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                            className: "title-font font-semibold text-white tracking-widest text-xs mt-4",
-                                            children: "PHONE"
-                                        }, void 0, false, {
-                                            fileName: "src/components/Contact.js",
-                                            lineNumber: 61,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            className: "leading-relaxed",
-                                            children: "123-456-7890"
-                                        }, void 0, false, {
-                                            fileName: "src/components/Contact.js",
-                                            lineNumber: 64,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/Contact.js",
-                                    lineNumber: 54,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Contact.js",
-                            lineNumber: 44,
-                            columnNumber: 13
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Contact.js",
-                    lineNumber: 32,
-                    columnNumber: 11
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                    netlify: true,
-                    name: "contact",
-                    onSubmit: handleSubmit,
-                    className: "lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            className: "text-white sm:text-4xl text-3xl mb-1 font-medium title-font",
-                            children: "Hire Me"
-                        }, void 0, false, {
-                            fileName: "src/components/Contact.js",
-                            lineNumber: 73,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "leading-relaxed mb-5",
-                            children: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum suscipit officia aspernatur veritatis. Asperiores, aliquid?"
-                        }, void 0, false, {
-                            fileName: "src/components/Contact.js",
-                            lineNumber: 76,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "relative mb-4",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                    htmlFor: "name",
-                                    className: "leading-7 text-sm text-gray-400",
-                                    children: "Name"
-                                }, void 0, false, {
-                                    fileName: "src/components/Contact.js",
-                                    lineNumber: 81,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "text",
-                                    id: "name",
-                                    name: "name",
-                                    className: "w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out",
-                                    onChange: (e)=>setName(e.target.value)
-                                }, void 0, false, {
-                                    fileName: "src/components/Contact.js",
-                                    lineNumber: 84,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Contact.js",
-                            lineNumber: 80,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "relative mb-4",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                    htmlFor: "email",
-                                    className: "leading-7 text-sm text-gray-400",
-                                    children: "Email"
-                                }, void 0, false, {
-                                    fileName: "src/components/Contact.js",
-                                    lineNumber: 93,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "email",
-                                    id: "email",
-                                    name: "email",
-                                    className: "w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out",
-                                    onChange: (e)=>setEmail(e.target.value)
-                                }, void 0, false, {
-                                    fileName: "src/components/Contact.js",
-                                    lineNumber: 96,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Contact.js",
-                            lineNumber: 92,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "relative mb-4",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                    htmlFor: "message",
-                                    className: "leading-7 text-sm text-gray-400",
-                                    children: "Message"
-                                }, void 0, false, {
-                                    fileName: "src/components/Contact.js",
-                                    lineNumber: 105,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                                    id: "message",
-                                    name: "message",
-                                    className: "w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out",
-                                    onChange: (e)=>setMessage(e.target.value)
-                                }, void 0, false, {
-                                    fileName: "src/components/Contact.js",
-                                    lineNumber: 110,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Contact.js",
-                            lineNumber: 104,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            type: "submit",
-                            className: "text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg",
-                            children: "Submit"
-                        }, void 0, false, {
-                            fileName: "src/components/Contact.js",
-                            lineNumber: 117,
-                            columnNumber: 13
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Contact.js",
-                    lineNumber: 68,
-                    columnNumber: 11
-                }, this)
-            ]
-        }, void 0, true, {
+            className: "container px-6 py-10 max-w-5xl font-body mx-auto flex sm:flex-nowrap flex-wrap",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                netlify: true,
+                name: "contact",
+                onSubmit: handleSubmit,
+                className: "w-full flex flex-col mx-auto md:py-8 mt-8 md:mt-0",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                        fileName: "src/components/Contact.js",
+                        lineNumber: 38,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "text-sm  font-medium mb-10 mt-2 text-slate-950",
+                        children: "CONTACT"
+                    }, void 0, false, {
+                        fileName: "src/components/Contact.js",
+                        lineNumber: 39,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "relative mb-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "name",
+                                className: "leading-7 text-sm text-gray-600",
+                                children: "Name"
+                            }, void 0, false, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 47,
+                                columnNumber: 15
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                id: "name",
+                                name: "name",
+                                className: "w-full  border border-gray-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out",
+                                onChange: (e)=>setName(e.target.value)
+                            }, void 0, false, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 50,
+                                columnNumber: 15
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Contact.js",
+                        lineNumber: 46,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "relative mb-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "email",
+                                className: "leading-7 text-sm text-gray-400",
+                                children: "Email"
+                            }, void 0, false, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 59,
+                                columnNumber: 15
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "email",
+                                id: "email",
+                                name: "email",
+                                className: "w-full bg-gray-800 border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out",
+                                onChange: (e)=>setEmail(e.target.value)
+                            }, void 0, false, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 62,
+                                columnNumber: 15
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Contact.js",
+                        lineNumber: 58,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "relative mb-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "message",
+                                className: "leading-7 text-sm text-gray-400",
+                                children: "Message"
+                            }, void 0, false, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 71,
+                                columnNumber: 15
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                id: "message",
+                                name: "message",
+                                className: "w-full border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out",
+                                onChange: (e)=>setMessage(e.target.value)
+                            }, void 0, false, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 76,
+                                columnNumber: 15
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Contact.js",
+                        lineNumber: 70,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        type: "submit",
+                        className: "text-white font-medium text-sm bg-slate-950 border-0 py-3 px-6 focus:outline-none hover:bg-amber-400 tracking-wide",
+                        children: "SUBMIT"
+                    }, void 0, false, {
+                        fileName: "src/components/Contact.js",
+                        lineNumber: 83,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Contact.js",
+                lineNumber: 33,
+                columnNumber: 11
+            }, this)
+        }, void 0, false, {
             fileName: "src/components/Contact.js",
             lineNumber: 31,
             columnNumber: 9
@@ -27829,15 +27762,15 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 function Navbar() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-        className: "bg-slate-950 md:sticky top-0 z-10",
+        className: "bg-slate-950 md:sticky top-0 z-20",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container mx-auto flex flex-wrap py-7 px-6 flex-col md:flex-row items-center max-w-5xl font-light",
+            className: "container mx-auto flex flex-wrap py-6 px-6 flex-col md:flex-row items-center max-w-5xl font-light",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                     className: "text-white mb-4 md:mb-0",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "#about",
-                        className: "text-2xl font-clean",
+                        className: "text-2xl font-clean text-white",
                         children: "Adam Grover"
                     }, void 0, false, {
                         fileName: "src/components/Navbar.js",
@@ -27887,7 +27820,7 @@ function Navbar() {
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                     href: "#contact",
-                    className: "font-body tracking-wide inline-flex items-center border-2 border-white px-4 py-2 focus:outline-none font-medium hover:bg-gray-700 text-xs mt-4 md:mt-0",
+                    className: "font-body tracking-wide inline-flex items-center border-2 border-white px-3 py-1 focus:outline-none font-normal hover:bg-white hover:text-black text-xs mt-4 md:mt-0",
                     children: "CONTACT"
                 }, void 0, false, {
                     fileName: "src/components/Navbar.js",
@@ -35500,7 +35433,7 @@ function Projects() {
         id: "projects",
         className: "text-gray-400 bg-zinc-50 body-font",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container px-6 py-10 mx-auto text-left max-w-5xl font-body  ",
+            className: "container px-6 pt-24 mx-auto text-left max-w-5xl font-body  ",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/components/Projects.js",
@@ -35510,7 +35443,7 @@ function Projects() {
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "flex flex-col w-full mt-1",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        className: "text-sm  font-medium mb-10 mt-2 text-slate-950",
+                        className: "text-sm font-medium mb-10 mt-2 text-slate-950",
                         children: "PROJECTS"
                     }, void 0, false, {
                         fileName: "src/components/Projects.js",
@@ -35540,10 +35473,10 @@ function Projects() {
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100",
+                                        className: "px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-slate-950 opacity-0 hover:opacity-100",
                                         children: [
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                                className: "tracking-widest text-sm title-font font-medium text-green-400 mb-1",
+                                                className: "tracking-widest text-sm title-font font-medium text-amber-400 mb-1",
                                                 children: project.subtitle
                                             }, void 0, false, {
                                                 fileName: "src/components/Projects.js",
@@ -35615,6 +35548,7 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "projects", ()=>projects);
 parcelHelpers.export(exports, "testimonials", ()=>testimonials);
 parcelHelpers.export(exports, "skills", ()=>skills);
+parcelHelpers.export(exports, "blogs", ()=>blogs);
 var _project1Gif = require("./assets/project-1.gif");
 var _project1GifDefault = parcelHelpers.interopDefault(_project1Gif);
 var _project2Gif = require("./assets/project-2.gif");
@@ -35675,46 +35609,41 @@ const skills = [
     "GraphQL",
     "Material UI"
 ];
+const blogs = [
+    {
+        title: "React Reserve",
+        subtitle: "MERN Stack",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        image: (0, _project1GifDefault.default),
+        link: "https://reactbootcamp.com"
+    },
+    {
+        title: "React Tracks",
+        subtitle: "React and Python",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        image: (0, _project2GifDefault.default),
+        link: "https://reactbootcamp.com"
+    },
+    {
+        title: "DevChat",
+        subtitle: "React and Firebase",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        image: (0, _project3GifDefault.default),
+        link: "https://reactbootcamp.com"
+    },
+    {
+        title: "Epic Todo App",
+        subtitle: "React Hooks",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        image: (0, _project4GifDefault.default),
+        link: "https://reactbootcamp.com"
+    }
+];
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/project-1.gif":"7YsID","./assets/project-2.gif":"gKWzr","./assets/project-3.gif":"6x0kF","./assets/project-4.gif":"175Vl"}],"7YsID":[function(require,module,exports) {
 module.exports = require("fa5d29e76ac2bdf9").getBundleURL("bLxZJ") + "project-1.1e1994d1.gif" + "?" + Date.now();
 
-},{"fa5d29e76ac2bdf9":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-}
-// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"gKWzr":[function(require,module,exports) {
+},{"fa5d29e76ac2bdf9":"lgJ39"}],"gKWzr":[function(require,module,exports) {
 module.exports = require("1e7b68a428be260d").getBundleURL("bLxZJ") + "project-2.73afa2d5.gif" + "?" + Date.now();
 
 },{"1e7b68a428be260d":"lgJ39"}],"6x0kF":[function(require,module,exports) {
@@ -35743,7 +35672,7 @@ function Skills() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "skills",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container px-6 py-10 max-w-5xl font-body mx-auto",
+            className: "container px-6 pt-24 max-w-5xl font-body mx-auto",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/components/Skills.js",
@@ -35751,7 +35680,7 @@ function Skills() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: " mb-20",
+                    className: "",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         className: "text-sm  font-medium mb-10 mt-2 text-slate-950",
                         children: "SKILLS"
@@ -35770,10 +35699,10 @@ function Skills() {
                     children: (0, _data.skills).map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "p-2 sm:w-1/2 w-full",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "bg-gray-800 rounded flex p-4 h-full items-center",
+                                className: "bg-slate-950  rounded flex p-4 h-full items-center",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _solid.CheckIcon), {
-                                        className: "text-green-400 w-6 h-6 flex-shrink-0 mr-4"
+                                        className: "text-amber-400 w-6 h-6 flex-shrink-0 mr-4"
                                     }, void 0, false, {
                                         fileName: "src/components/Skills.js",
                                         lineNumber: 22,
@@ -35824,11 +35753,11 @@ $RefreshReg$(_c, "Skills");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","react":"21dqq","../data":"9kapS","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@heroicons/react/20/solid":"biQa5"}],"jiq6n":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$096b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","react":"21dqq","../data":"9kapS","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@heroicons/react/20/solid":"biQa5"}],"bw17m":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$044f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$096b.prelude(module);
+$parcel$ReactRefreshHelpers$044f.prelude(module);
 
 try {
 // src/components/Testimonials
@@ -35842,114 +35771,105 @@ var _solid = require("@heroicons/react/20/solid");
 var _data = require("../data");
 function Testimonials() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "testimonials",
+        id: "blog",
+        className: "text-gray-400 bg-zinc-50 body-font",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container px-5 py-10 mx-auto text-center",
+            className: "container px-6 py-10 mx-auto text-left max-w-5xl font-body  ",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _solid.UsersIcon), {
-                    className: "w-10 inline-block mb-4"
-                }, void 0, false, {
-                    fileName: "src/components/Testimonials.js",
-                    lineNumber: 11,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    className: "sm:text-4xl text-3xl font-medium title-font text-white mb-12",
-                    children: "Client Testimonials"
-                }, void 0, false, {
-                    fileName: "src/components/Testimonials.js",
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                    fileName: "src/components/Blog.js",
                     lineNumber: 12,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex flex-col w-full mt-1",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "text-sm font-medium mb-10 mt-2 text-slate-950",
+                        children: "BLOG"
+                    }, void 0, false, {
+                        fileName: "src/components/Blog.js",
+                        lineNumber: 14,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/Blog.js",
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex flex-wrap m-4",
-                    children: (0, _data.testimonials).map((testimonial)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "p-4 md:w-1/2 w-full",
+                    className: "flex flex-wrap -m-4",
+                    children: (0, _data.blogs).map((blog)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: blog.link,
+                            className: "sm:w-1/2 w-100 p-4",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "h-full bg-gray-800 bg-opacity-40 p-8 rounded",
+                                className: "flex relative",
                                 children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _solid.CommandLineIcon), {
-                                        className: "block w-8 text-gray-500 mb-4"
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        alt: "gallery",
+                                        className: "absolute inset-0 w-full h-full object-cover object-center border-slate-300 border-solid border-2",
+                                        src: blog.image
                                     }, void 0, false, {
-                                        fileName: "src/components/Testimonials.js",
-                                        lineNumber: 19,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "leading-relaxed mb-6",
-                                        children: testimonial.quote
-                                    }, void 0, false, {
-                                        fileName: "src/components/Testimonials.js",
-                                        lineNumber: 20,
+                                        fileName: "src/components/Blog.js",
+                                        lineNumber: 30,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "inline-flex items-center",
+                                        className: "px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100",
                                         children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                alt: "testimonial",
-                                                src: testimonial.image,
-                                                className: "w-12 rounded-full flex-shrink-0 object-cover object-center"
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                                className: "tracking-widest text-sm title-font font-medium text-green-400 mb-1",
+                                                children: blog.subtitle
                                             }, void 0, false, {
-                                                fileName: "src/components/Testimonials.js",
-                                                lineNumber: 22,
+                                                fileName: "src/components/Blog.js",
+                                                lineNumber: 36,
                                                 columnNumber: 19
                                             }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "flex-grow flex flex-col pl-4",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                        className: "title-font font-medium text-white",
-                                                        children: testimonial.name
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/Testimonials.js",
-                                                        lineNumber: 28,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                        className: "text-gray-500 text-sm uppercase",
-                                                        children: testimonial.company
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/Testimonials.js",
-                                                        lineNumber: 31,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/Testimonials.js",
-                                                lineNumber: 27,
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                                className: "title-font text-lg font-medium text-white mb-3",
+                                                children: blog.title
+                                            }, void 0, false, {
+                                                fileName: "src/components/Blog.js",
+                                                lineNumber: 39,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "leading-relaxed",
+                                                children: blog.description
+                                            }, void 0, false, {
+                                                fileName: "src/components/Blog.js",
+                                                lineNumber: 42,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "src/components/Testimonials.js",
-                                        lineNumber: 21,
+                                        fileName: "src/components/Blog.js",
+                                        lineNumber: 35,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "src/components/Testimonials.js",
-                                lineNumber: 18,
+                                fileName: "src/components/Blog.js",
+                                lineNumber: 29,
                                 columnNumber: 15
                             }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/Testimonials.js",
-                            lineNumber: 17,
+                        }, blog.image, false, {
+                            fileName: "src/components/Blog.js",
+                            lineNumber: 25,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
-                    fileName: "src/components/Testimonials.js",
-                    lineNumber: 15,
+                    fileName: "src/components/Blog.js",
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "src/components/Testimonials.js",
-            lineNumber: 10,
+            fileName: "src/components/Blog.js",
+            lineNumber: 11,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "src/components/Testimonials.js",
+        fileName: "src/components/Blog.js",
         lineNumber: 9,
         columnNumber: 5
     }, this);
@@ -35958,11 +35878,84 @@ _c = Testimonials;
 var _c;
 $RefreshReg$(_c, "Testimonials");
 
-  $parcel$ReactRefreshHelpers$096b.postlude(module);
+  $parcel$ReactRefreshHelpers$044f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","react":"21dqq","../data":"9kapS","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@heroicons/react/20/solid":"biQa5"}]},["icZzK","1xC6H","8lqZg"], "8lqZg", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@heroicons/react/20/solid":"biQa5","../data":"9kapS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dmc9W":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$8e98 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8e98.prelude(module);
+
+try {
+// src/components/Navbar.js
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Foot);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _solid = require("@heroicons/react/20/solid");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function Foot() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+        className: "bg-slate-950 z-20",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container mx-auto flex flex-wrap py-7 px-6 flex-col md:flex-row items-center max-w-5xl font-light",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                    className: "text-white mb-4 md:mb-0",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "#about",
+                        className: "text-2xl font-clean"
+                    }, void 0, false, {
+                        fileName: "src/components/Foot.js",
+                        lineNumber: 11,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/Foot.js",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                    className: "md:ml-auto  md:py-1 md:pl-4  flex flex-wrap items-center text-xs justify-center font-body",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "#projects",
+                        className: " hover:text-white fon-body text-xs",
+                        children: "adamggrover@gmail.com"
+                    }, void 0, false, {
+                        fileName: "src/components/Foot.js",
+                        lineNumber: 16,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/Foot.js",
+                    lineNumber: 15,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Foot.js",
+            lineNumber: 9,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/Foot.js",
+        lineNumber: 8,
+        columnNumber: 5
+    }, this);
+}
+_c = Foot;
+var _c;
+$RefreshReg$(_c, "Foot");
+
+  $parcel$ReactRefreshHelpers$8e98.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@heroicons/react/20/solid":"biQa5","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["icZzK","1xC6H","8lqZg"], "8lqZg", "parcelRequire94c2")
 
 //# sourceMappingURL=index.975ef6c8.js.map
