@@ -19,7 +19,7 @@ export const work = [
     title: "Wessex Learning Trust",
     subtitle: "Wordpress/Bootstrap/ACF",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Custom worrdpress theme build for the WEssex Learning Trust.",
     image: wltGif,
     link: "https://adamggrover.github.io/rock-paper-scissors-game/",
   }
