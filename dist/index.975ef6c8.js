@@ -27172,8 +27172,6 @@ var _skills = require("./components/Skills");
 var _skillsDefault = parcelHelpers.interopDefault(_skills);
 var _foot = require("./components/Foot");
 var _footDefault = parcelHelpers.interopDefault(_foot);
-var _blog = require("./components/Blog");
-var _blogDefault = parcelHelpers.interopDefault(_blog);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
         className: "text-gray-200 bg-zinc-50",
@@ -27205,12 +27203,12 @@ function App() {
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 22,
+                lineNumber: 21,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 23,
+                lineNumber: 22,
                 columnNumber: 7
             }, this)
         ]
@@ -35556,7 +35554,6 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "work", ()=>work);
 parcelHelpers.export(exports, "projects", ()=>projects);
 parcelHelpers.export(exports, "skills", ()=>skills);
-parcelHelpers.export(exports, "blogs", ()=>blogs);
 var _project1Gif = require("./assets/project-1.gif");
 var _project1GifDefault = parcelHelpers.interopDefault(_project1Gif);
 var _project2Gif = require("./assets/project-2.gif");
@@ -35601,36 +35598,6 @@ const skills = [
     "PHP",
     "React",
     "Git"
-];
-const blogs = [
-    {
-        title: "React Reserve",
-        subtitle: "MERN Stack",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: (0, _project1GifDefault.default),
-        link: "https://reactbootcamp.com"
-    },
-    {
-        title: "React Tracks",
-        subtitle: "React and Python",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: (0, _project2GifDefault.default),
-        link: "https://reactbootcamp.com"
-    },
-    {
-        title: "DevChat",
-        subtitle: "React and Firebase",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: (0, _project3GifDefault.default),
-        link: "https://reactbootcamp.com"
-    },
-    {
-        title: "Epic Todo App",
-        subtitle: "React Hooks",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: (0, _project4GifDefault.default),
-        link: "https://reactbootcamp.com"
-    }
 ];
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/project-1.gif":"7YsID","./assets/project-2.gif":"gKWzr","./assets/project-3.gif":"6x0kF","./assets/project-4.gif":"175Vl"}],"7YsID":[function(require,module,exports) {

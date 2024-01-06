@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Foot from "./components/Foot";
-import Blog from "./components/Blog";
+
 
 
 
@@ -18,7 +18,6 @@ export function App() {
       <Work />
       <Skills />
       <Projects />
-      {/* <Blog /> */}
       <Contact />
       <Foot />
       
