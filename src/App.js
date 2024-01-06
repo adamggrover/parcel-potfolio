@@ -12,7 +12,7 @@ import Foot from "./components/Foot";
 
 export function App() {
   return (
-    <main className="text-gray-200 bg-zinc-50">
+    <main className="text-gray-200 bg-neutral-50">
       <Navbar />
       <About />
       <Work />
