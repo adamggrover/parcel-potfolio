@@ -17,7 +17,7 @@ module.exports = {
         body: ['Source Code Pro', 'monospace']
       },
       colors: {
-        primary: '#ffccee'
+        primary: '#16126e'
       }
     },
   },
