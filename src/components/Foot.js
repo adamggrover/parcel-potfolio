@@ -32,7 +32,7 @@ export default function Foot() {
             </a>
         </div>
         <nav className="md:py-1 ml-6 flex flex-wrap items-center text-xs justify-center font-body">
-          <a href="#projects" className=" hover:text-white fon-body text-xs">
+          <a href="mailto:adamggrover@gmail.com" className=" hover:text-white fon-body text-xs">
             adamggrover@gmail.com
           </a>
 

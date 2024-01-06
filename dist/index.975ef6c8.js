@@ -35958,7 +35958,7 @@ function Foot() {
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                     className: "md:py-1 ml-6 flex flex-wrap items-center text-xs justify-center font-body",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#projects",
+                        href: "mailto:adamggrover@gmail.com",
                         className: " hover:text-white fon-body text-xs",
                         children: "adamggrover@gmail.com"
                     }, void 0, false, {
