@@ -27466,9 +27466,9 @@ function About() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                    href: "#projects",
+                                    href: "#work",
                                     className: "ml-4 inline-flex text-gray-100 bg-slate-950 border-0 py-2 px-6 focus:outline-none hover:bg-amber-400 hover:text-black text-sm font-body font-light",
-                                    children: "VIEW PROJECTS"
+                                    children: "VIEW MY WORK"
                                 }, void 0, false, {
                                     fileName: "src/components/About.js",
                                     lineNumber: 28,
