@@ -1,4 +1,4 @@
-// src/components/Projects.js
+// src/components/Work.js
 
 import { CodeBracketIcon} from "@heroicons/react/20/solid";
 import React from "react";

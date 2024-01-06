@@ -27227,7 +27227,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Navbar":"5EEXV","./components/Projects":"16pwG","./components/Skills":"OHDzu","react":"21dqq","./components/Blog":"bw17m","./components/Foot":"dmc9W","./components/Work":"cJuRA"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Navbar":"5EEXV","./components/Projects":"16pwG","./components/Skills":"OHDzu","react":"21dqq","./components/Foot":"dmc9W","./components/Work":"cJuRA"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -35562,19 +35562,23 @@ var _project3Gif = require("./assets/project-3.gif");
 var _project3GifDefault = parcelHelpers.interopDefault(_project3Gif);
 var _project4Gif = require("./assets/project-4.gif");
 var _project4GifDefault = parcelHelpers.interopDefault(_project4Gif);
+var _fairlandsGifGif = require("./assets/fairlands-gif.gif");
+var _fairlandsGifGifDefault = parcelHelpers.interopDefault(_fairlandsGifGif);
+var _wltGif = require("./assets/wlt.gif");
+var _wltGifDefault = parcelHelpers.interopDefault(_wltGif);
 const work = [
     {
         title: "Fairlands Middle School",
         subtitle: "Wordpress/Custom Theme Build/Custom Posts/Multi-site/Bootstrap/ACF",
         description: "Custom wordpress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
-        image: (0, _project1GifDefault.default),
+        image: (0, _fairlandsGifGifDefault.default),
         link: "https://fairlandsmiddleschool.co.uk"
     },
     {
-        title: "Fairlands Middle School",
+        title: "Wessex Learning Trust",
         subtitle: "MERN Stack",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: (0, _project1GifDefault.default),
+        image: (0, _wltGifDefault.default),
         link: "https://adamggrover.github.io/rock-paper-scissors-game/"
     }
 ];
@@ -35600,7 +35604,7 @@ const skills = [
     "Git"
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/project-1.gif":"7YsID","./assets/project-2.gif":"gKWzr","./assets/project-3.gif":"6x0kF","./assets/project-4.gif":"175Vl"}],"7YsID":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/project-1.gif":"7YsID","./assets/project-2.gif":"gKWzr","./assets/project-3.gif":"6x0kF","./assets/project-4.gif":"175Vl","./assets/fairlands-gif.gif":"wSK8b","./assets/wlt.gif":"78Owd"}],"7YsID":[function(require,module,exports) {
 module.exports = require("fa5d29e76ac2bdf9").getBundleURL("bLxZJ") + "project-1.1e1994d1.gif" + "?" + Date.now();
 
 },{"fa5d29e76ac2bdf9":"lgJ39"}],"gKWzr":[function(require,module,exports) {
@@ -35612,7 +35616,13 @@ module.exports = require("cc4d4141759f74ba").getBundleURL("bLxZJ") + "project-3.
 },{"cc4d4141759f74ba":"lgJ39"}],"175Vl":[function(require,module,exports) {
 module.exports = require("b57c33c29b5722d9").getBundleURL("bLxZJ") + "project-4.167a0415.gif" + "?" + Date.now();
 
-},{"b57c33c29b5722d9":"lgJ39"}],"OHDzu":[function(require,module,exports) {
+},{"b57c33c29b5722d9":"lgJ39"}],"wSK8b":[function(require,module,exports) {
+module.exports = require("2c0ccf483e088c26").getBundleURL("bLxZJ") + "fairlands-gif.d98bf0cd.gif" + "?" + Date.now();
+
+},{"2c0ccf483e088c26":"lgJ39"}],"78Owd":[function(require,module,exports) {
+module.exports = require("5ada7644bdda0da2").getBundleURL("bLxZJ") + "wlt.a9fd377d.gif" + "?" + Date.now();
+
+},{"5ada7644bdda0da2":"lgJ39"}],"OHDzu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$14cb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35713,137 +35723,7 @@ $RefreshReg$(_c, "Skills");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","react":"21dqq","../data":"9kapS","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@heroicons/react/20/solid":"biQa5"}],"bw17m":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$044f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$044f.prelude(module);
-
-try {
-// src/components/Testimonials
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Testimonials);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _solid = require("@heroicons/react/20/solid");
-var _data = require("../data");
-function Testimonials() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "blog",
-        className: "text-gray-400 bg-zinc-50 body-font",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container px-6 py-10 mx-auto text-left max-w-5xl font-body  ",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                    fileName: "src/components/Blog.js",
-                    lineNumber: 12,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex flex-col w-full mt-1",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        className: "text-sm font-medium mb-10 mt-2 text-slate-950",
-                        children: "BLOG"
-                    }, void 0, false, {
-                        fileName: "src/components/Blog.js",
-                        lineNumber: 14,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/Blog.js",
-                    lineNumber: 13,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex flex-wrap -m-4",
-                    children: (0, _data.blogs).map((blog)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: blog.link,
-                            className: "sm:w-1/2 w-100 p-4",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex relative",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        alt: "gallery",
-                                        className: "absolute inset-0 w-full h-full object-cover object-center border-slate-300 border-solid border-2",
-                                        src: blog.image
-                                    }, void 0, false, {
-                                        fileName: "src/components/Blog.js",
-                                        lineNumber: 30,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                                className: "tracking-widest text-sm title-font font-medium text-green-400 mb-1",
-                                                children: blog.subtitle
-                                            }, void 0, false, {
-                                                fileName: "src/components/Blog.js",
-                                                lineNumber: 36,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                                className: "title-font text-lg font-medium text-white mb-3",
-                                                children: blog.title
-                                            }, void 0, false, {
-                                                fileName: "src/components/Blog.js",
-                                                lineNumber: 39,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "leading-relaxed",
-                                                children: blog.description
-                                            }, void 0, false, {
-                                                fileName: "src/components/Blog.js",
-                                                lineNumber: 42,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/Blog.js",
-                                        lineNumber: 35,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/Blog.js",
-                                lineNumber: 29,
-                                columnNumber: 15
-                            }, this)
-                        }, blog.image, false, {
-                            fileName: "src/components/Blog.js",
-                            lineNumber: 25,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "src/components/Blog.js",
-                    lineNumber: 23,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Blog.js",
-            lineNumber: 11,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/Blog.js",
-        lineNumber: 9,
-        columnNumber: 5
-    }, this);
-}
-_c = Testimonials;
-var _c;
-$RefreshReg$(_c, "Testimonials");
-
-  $parcel$ReactRefreshHelpers$044f.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@heroicons/react/20/solid":"biQa5","../data":"9kapS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dmc9W":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","react":"21dqq","../data":"9kapS","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@heroicons/react/20/solid":"biQa5"}],"dmc9W":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8e98 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35959,7 +35839,7 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$aec1.prelude(module);
 
 try {
-// src/components/Projects.js
+// src/components/Work.js
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Work);
