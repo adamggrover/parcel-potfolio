@@ -12,7 +12,7 @@ import linkedin from "../assets/linkedin-icon.svg";
 
 export default function Foot() {
   return (
-    <header className="bg-slate-950 z-20">
+    <header className="bg-primary z-20">
       <div className="container mx-auto flex flex-wrap py-7 px-6 flex-col md:flex-row items-center max-w-5xl font-light">
 
         <div className="  md:ml-auto  md:py-1 md:pl-4  flex flex-wrap items-center text-xs justify-end font-body gap-2">

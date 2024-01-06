@@ -15,7 +15,9 @@ module.exports = {
       fontFamily: {
         clean: ['Source Sans 3', 'sans-serif'],
         body: ['Source Code Pro', 'monospace']
-        
+      },
+      colors: {
+        primary: '#ffccee'
       }
     },
   },

@@ -36,7 +36,7 @@ export default function Contact() {
             onSubmit={handleSubmit}
             className="w-full flex flex-col mx-auto md:py-8 mt-8 md:mt-0">
             <hr></hr>
-            <h1 className="text-sm  font-medium mb-10 mt-2 text-slate-950">
+            <h1 className="text-sm  font-medium mb-10 mt-2 text-primary">
               CONTACT
             </h1>
             {/* <p className="leading-relaxed mb-5">
@@ -82,7 +82,7 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="text-white font-medium text-sm bg-slate-950 border-0 py-3 px-6 focus:outline-none hover:bg-amber-400 tracking-wide">
+              className="text-white font-medium text-sm bg-primary border-0 py-3 px-6 focus:outline-none hover:bg-amber-400 tracking-wide">
               SUBMIT
             </button>
           </form>
