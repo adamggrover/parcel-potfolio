@@ -35555,7 +35555,6 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "work", ()=>work);
 parcelHelpers.export(exports, "projects", ()=>projects);
-parcelHelpers.export(exports, "testimonials", ()=>testimonials);
 parcelHelpers.export(exports, "skills", ()=>skills);
 parcelHelpers.export(exports, "blogs", ()=>blogs);
 var _project1Gif = require("./assets/project-1.gif");
@@ -35584,35 +35583,23 @@ const work = [
 ];
 const projects = [
     {
-        title: "Rock, Paper, Scissors",
+        title: "Rock, Paper, Scissors Game",
         subtitle: "MERN Stack",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: (0, _project1GifDefault.default),
         link: "https://adamggrover.github.io/rock-paper-scissors-game/"
     }
 ];
-const testimonials = [
-    {
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-        image: "https://randomuser.me/api/portraits/men/1.jpg",
-        name: "Jesse Hicks",
-        company: "Zoozle"
-    },
-    {
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-        image: "https://randomuser.me/api/portraits/men/94.jpg",
-        name: "Ruben Alvarez",
-        company: "Dooble.io"
-    }
-];
 const skills = [
     "HTML",
-    "CSS",
+    "CSS - SASS, Bootstrap, Tailwind",
     "Javascript",
     "NPM",
+    "Gulp",
+    "Wordpress",
+    "Webpack/Parcel",
+    "PHP",
     "React",
-    "C#",
-    "Python",
     "Git"
 ];
 const blogs = [
