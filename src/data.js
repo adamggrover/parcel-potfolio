@@ -9,7 +9,7 @@ import wltGif from "./assets/wlt.gif"
 export const work = [
   {
     title: "Fairlands Middle School",
-    subtitle: "Wordpress/Custom Theme Build/Custom Posts/Multi-site/Bootstrap/ACF",
+    subtitle: "Wordpress/Bootstrap/ACF",
     description:
       "Custom wordpress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
     image: fairlandsGif,
@@ -17,7 +17,7 @@ export const work = [
   },
   {
     title: "Wessex Learning Trust",
-    subtitle: "MERN Stack",
+    subtitle: "Wordpress/Bootstrap/ACF",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: wltGif,
@@ -29,7 +29,7 @@ export const work = [
 export const projects = [
   {
     title: "Rock, Paper, Scissors Game",
-    subtitle: "MERN Stack",
+    subtitle: "Javascript/Webpack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: p1gif,

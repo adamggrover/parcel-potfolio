@@ -35569,14 +35569,14 @@ var _wltGifDefault = parcelHelpers.interopDefault(_wltGif);
 const work = [
     {
         title: "Fairlands Middle School",
-        subtitle: "Wordpress/Custom Theme Build/Custom Posts/Multi-site/Bootstrap/ACF",
+        subtitle: "Wordpress/Bootstrap/ACF",
         description: "Custom wordpress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
         image: (0, _fairlandsGifGifDefault.default),
         link: "https://fairlandsmiddleschool.co.uk"
     },
     {
         title: "Wessex Learning Trust",
-        subtitle: "MERN Stack",
+        subtitle: "Wordpress/Bootstrap/ACF",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: (0, _wltGifDefault.default),
         link: "https://adamggrover.github.io/rock-paper-scissors-game/"
@@ -35585,7 +35585,7 @@ const work = [
 const projects = [
     {
         title: "Rock, Paper, Scissors Game",
-        subtitle: "MERN Stack",
+        subtitle: "Javascript/Webpack",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: (0, _project1GifDefault.default),
         link: "https://adamggrover.github.io/rock-paper-scissors-game/"
@@ -35963,6 +35963,6 @@ $RefreshReg$(_c, "Work");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@heroicons/react/20/solid":"biQa5","react":"21dqq","../data":"9kapS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["icZzK","1xC6H","8lqZg"], "8lqZg", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","@heroicons/react/20/solid":"biQa5","react":"21dqq","../data":"9kapS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["icZzK","1xC6H","8lqZg"], "8lqZg", "parcelRequiref228")
 
 //# sourceMappingURL=index.975ef6c8.js.map
