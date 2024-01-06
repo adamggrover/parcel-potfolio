@@ -8,20 +8,20 @@ export default function Navbar() {
     <header className="bg-slate-950 md:sticky top-0 z-20">
       <div className="container mx-auto flex flex-wrap py-6 px-6 flex-col md:flex-row items-center max-w-5xl font-light">
         <a className="text-white mb-4 md:mb-0">
-          <a href="#about" className="text-2xl font-clean text-white">
+          <a href="#about" className="text-3xl font-clean text-white">
             Adam Grover
           </a>
         </a>
-        <nav className="  md:ml-auto md:mr-6 md:py-1 md:pl-4  flex flex-wrap items-center text-xs justify-center font-body">
-          <a href="#projects" className="mr-5 hover:text-white">
-            Past Work
+        <nav className="  md:ml-auto md:mr-8 md:py-1 md:pl-4  flex flex-wrap items-center text-sm justify-center font-body">
+          <a href="#projects" className="mr-8 hover:text-white">
+            Projects
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#skills" className="mr-3 hover:text-white">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
+          {/* <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
-          </a>
+          </a> */}
         </nav>
         <a
           href="#contact"

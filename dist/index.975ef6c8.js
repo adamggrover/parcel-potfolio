@@ -27160,6 +27160,8 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _about = require("./components/About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
+var _work = require("./components/Work");
+var _workDefault = parcelHelpers.interopDefault(_work);
 var _contact = require("./components/Contact");
 var _contactDefault = parcelHelpers.interopDefault(_contact);
 var _navbar = require("./components/Navbar");
@@ -27178,38 +27180,43 @@ function App() {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 15,
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 16,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
-                fileName: "src/App.js",
                 lineNumber: 17,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _workDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 18,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 19,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 20,
                 columnNumber: 7
             }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+                fileName: "src/App.js",
+                lineNumber: 22,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 21,
+                lineNumber: 23,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 14,
+        lineNumber: 15,
         columnNumber: 5
     }, this);
 }
@@ -27222,7 +27229,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Navbar":"5EEXV","./components/Projects":"16pwG","./components/Skills":"OHDzu","react":"21dqq","./components/Blog":"bw17m","./components/Foot":"dmc9W"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Navbar":"5EEXV","./components/Projects":"16pwG","./components/Skills":"OHDzu","react":"21dqq","./components/Blog":"bw17m","./components/Foot":"dmc9W","./components/Work":"cJuRA"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27451,8 +27458,8 @@ function About() {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                     href: "#contact",
-                                    className: "inline-flex text-white bg-slate-950 border-0 py-2 px-6 focus:outline-none hover:bg-amber-400 text-sm font-body font-light tracking-wide",
-                                    children: "WORK WITH ME"
+                                    className: "inline-flex text-white bg-slate-950 border-0 py-2 px-6 focus:outline-none hover:bg-amber-400 hover:text-black text-sm font-body font-light tracking-wide",
+                                    children: "GET IN TOUCH"
                                 }, void 0, false, {
                                     fileName: "src/components/About.js",
                                     lineNumber: 23,
@@ -27460,8 +27467,8 @@ function About() {
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                     href: "#projects",
-                                    className: "ml-4 inline-flex text-gray-100 bg-slate-950 border-0 py-2 px-6 focus:outline-none hover:bg-amber-400 hover:text-white text-sm font-body font-light",
-                                    children: "SEE MY PAST WORK"
+                                    className: "ml-4 inline-flex text-gray-100 bg-slate-950 border-0 py-2 px-6 focus:outline-none hover:bg-amber-400 hover:text-black text-sm font-body font-light",
+                                    children: "VIEW PROJECTS"
                                 }, void 0, false, {
                                     fileName: "src/components/About.js",
                                     lineNumber: 28,
@@ -27639,7 +27646,7 @@ function Contact() {
                                 type: "text",
                                 id: "name",
                                 name: "name",
-                                className: "w-full  border border-gray-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out",
+                                className: "w-full  border border-gray-700 focus:border-amber-400 focus:ring-2 focus:ring-amber-400 text-base outline-none text-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out",
                                 onChange: (e)=>setName(e.target.value)
                             }, void 0, false, {
                                 fileName: "src/components/Contact.js",
@@ -27657,7 +27664,7 @@ function Contact() {
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                                 htmlFor: "email",
-                                className: "leading-7 text-sm text-gray-400",
+                                className: "leading-7 text-sm text-gray-600",
                                 children: "Email"
                             }, void 0, false, {
                                 fileName: "src/components/Contact.js",
@@ -27668,7 +27675,7 @@ function Contact() {
                                 type: "email",
                                 id: "email",
                                 name: "email",
-                                className: "w-full bg-gray-800 border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out",
+                                className: "w-full border border-gray-700 focus:border-amber-400 focus:ring-2 focus:ring-amber-400 text-base outline-none text-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out",
                                 onChange: (e)=>setEmail(e.target.value)
                             }, void 0, false, {
                                 fileName: "src/components/Contact.js",
@@ -27686,7 +27693,7 @@ function Contact() {
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                                 htmlFor: "message",
-                                className: "leading-7 text-sm text-gray-400",
+                                className: "leading-7 text-sm text-gray-600",
                                 children: "Message"
                             }, void 0, false, {
                                 fileName: "src/components/Contact.js",
@@ -27696,7 +27703,7 @@ function Contact() {
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
                                 id: "message",
                                 name: "message",
-                                className: "w-full border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out",
+                                className: "w-full border border-gray-700 focus:border-amber-400 focus:ring-2 focus:ring-amber-400 h-32 text-base outline-none text-gray-600 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out",
                                 onChange: (e)=>setMessage(e.target.value)
                             }, void 0, false, {
                                 fileName: "src/components/Contact.js",
@@ -27770,7 +27777,7 @@ function Navbar() {
                     className: "text-white mb-4 md:mb-0",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "#about",
-                        className: "text-2xl font-clean text-white",
+                        className: "text-3xl font-clean text-white",
                         children: "Adam Grover"
                     }, void 0, false, {
                         fileName: "src/components/Navbar.js",
@@ -27783,12 +27790,12 @@ function Navbar() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                    className: "md:ml-auto md:mr-6 md:py-1 md:pl-4  flex flex-wrap items-center text-xs justify-center font-body",
+                    className: "  md:ml-auto md:mr-8 md:py-1 md:pl-4  flex flex-wrap items-center text-sm justify-center font-body",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                             href: "#projects",
-                            className: "mr-5 hover:text-white",
-                            children: "Past Work"
+                            className: "mr-8 hover:text-white",
+                            children: "Projects"
                         }, void 0, false, {
                             fileName: "src/components/Navbar.js",
                             lineNumber: 16,
@@ -27796,20 +27803,11 @@ function Navbar() {
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                             href: "#skills",
-                            className: "mr-5 hover:text-white",
+                            className: "mr-3 hover:text-white",
                             children: "Skills"
                         }, void 0, false, {
                             fileName: "src/components/Navbar.js",
                             lineNumber: 19,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "#testimonials",
-                            className: "mr-5 hover:text-white",
-                            children: "Testimonials"
-                        }, void 0, false, {
-                            fileName: "src/components/Navbar.js",
-                            lineNumber: 22,
                             columnNumber: 11
                         }, this)
                     ]
@@ -35459,6 +35457,7 @@ function Projects() {
                     className: "flex flex-wrap -m-4",
                     children: (0, _data.projects).map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                             href: project.link,
+                            target: "_blank",
                             className: "sm:w-1/2 w-100 p-4",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "flex relative",
@@ -35469,7 +35468,7 @@ function Projects() {
                                         src: project.image
                                     }, void 0, false, {
                                         fileName: "src/components/Projects.js",
-                                        lineNumber: 30,
+                                        lineNumber: 31,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -35480,7 +35479,7 @@ function Projects() {
                                                 children: project.subtitle
                                             }, void 0, false, {
                                                 fileName: "src/components/Projects.js",
-                                                lineNumber: 36,
+                                                lineNumber: 38,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -35488,7 +35487,7 @@ function Projects() {
                                                 children: project.title
                                             }, void 0, false, {
                                                 fileName: "src/components/Projects.js",
-                                                lineNumber: 39,
+                                                lineNumber: 41,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -35496,19 +35495,19 @@ function Projects() {
                                                 children: project.description
                                             }, void 0, false, {
                                                 fileName: "src/components/Projects.js",
-                                                lineNumber: 42,
+                                                lineNumber: 44,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/Projects.js",
-                                        lineNumber: 35,
+                                        lineNumber: 37,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Projects.js",
-                                lineNumber: 29,
+                                lineNumber: 30,
                                 columnNumber: 15
                             }, this)
                         }, project.image, false, {
@@ -35545,6 +35544,7 @@ $RefreshReg$(_c, "Projects");
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../data":"9kapS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@heroicons/react/20/solid":"biQa5"}],"9kapS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "work", ()=>work);
 parcelHelpers.export(exports, "projects", ()=>projects);
 parcelHelpers.export(exports, "testimonials", ()=>testimonials);
 parcelHelpers.export(exports, "skills", ()=>skills);
@@ -35557,34 +35557,22 @@ var _project3Gif = require("./assets/project-3.gif");
 var _project3GifDefault = parcelHelpers.interopDefault(_project3Gif);
 var _project4Gif = require("./assets/project-4.gif");
 var _project4GifDefault = parcelHelpers.interopDefault(_project4Gif);
-const projects = [
+const work = [
     {
-        title: "React Reserve",
+        title: "Rock, Paper, Scissors",
         subtitle: "MERN Stack",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: (0, _project1GifDefault.default),
-        link: "https://reactbootcamp.com"
-    },
+        link: "https://adamggrover.github.io/rock-paper-scissors-game/"
+    }
+];
+const projects = [
     {
-        title: "React Tracks",
-        subtitle: "React and Python",
+        title: "Rock, Paper, Scissors",
+        subtitle: "MERN Stack",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: (0, _project2GifDefault.default),
-        link: "https://reactbootcamp.com"
-    },
-    {
-        title: "DevChat",
-        subtitle: "React and Firebase",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: (0, _project3GifDefault.default),
-        link: "https://reactbootcamp.com"
-    },
-    {
-        title: "Epic Todo App",
-        subtitle: "React Hooks",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: (0, _project4GifDefault.default),
-        link: "https://reactbootcamp.com"
+        image: (0, _project1GifDefault.default),
+        link: "https://adamggrover.github.io/rock-paper-scissors-game/"
     }
 ];
 const testimonials = [
@@ -35602,12 +35590,14 @@ const testimonials = [
     }
 ];
 const skills = [
-    "JavaScript",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "NPM",
     "React",
-    "Next.js",
-    "Node",
-    "GraphQL",
-    "Material UI"
+    "C#",
+    "Python",
+    "Git"
 ];
 const blogs = [
     {
@@ -35891,59 +35881,89 @@ $parcel$ReactRefreshHelpers$8e98.prelude(module);
 
 try {
 // src/components/Navbar.js
+// import { ArrowRightCircleIcon } from "@heroicons/react/20/solid";
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Foot);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _solid = require("@heroicons/react/20/solid");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _githubIconSvg = require("../assets/github-icon.svg");
+var _githubIconSvgDefault = parcelHelpers.interopDefault(_githubIconSvg);
+var _linkedinIconSvg = require("../assets/linkedin-icon.svg");
+var _linkedinIconSvgDefault = parcelHelpers.interopDefault(_linkedinIconSvg);
 function Foot() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
         className: "bg-slate-950 z-20",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "container mx-auto flex flex-wrap py-7 px-6 flex-col md:flex-row items-center max-w-5xl font-light",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    className: "text-white mb-4 md:mb-0",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#about",
-                        className: "text-2xl font-clean"
-                    }, void 0, false, {
-                        fileName: "src/components/Foot.js",
-                        lineNumber: 11,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "  md:ml-auto  md:py-1 md:pl-4  flex flex-wrap items-center text-xs justify-end font-body gap-2",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "https://www.linkedin.com/in/adamggrover/",
+                            target: "_blank",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _linkedinIconSvgDefault.default),
+                                className: "w-8"
+                            }, void 0, false, {
+                                fileName: "src/components/Foot.js",
+                                lineNumber: 20,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/Foot.js",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "https://github.com/adamggrover",
+                            target: "_blank",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _githubIconSvgDefault.default),
+                                className: "w-8"
+                            }, void 0, false, {
+                                fileName: "src/components/Foot.js",
+                                lineNumber: 27,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/Foot.js",
+                            lineNumber: 26,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/Foot.js",
-                    lineNumber: 10,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                    className: "md:ml-auto  md:py-1 md:pl-4  flex flex-wrap items-center text-xs justify-center font-body",
+                    className: "md:py-1 ml-6 flex flex-wrap items-center text-xs justify-center font-body",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "#projects",
                         className: " hover:text-white fon-body text-xs",
                         children: "adamggrover@gmail.com"
                     }, void 0, false, {
                         fileName: "src/components/Foot.js",
-                        lineNumber: 16,
+                        lineNumber: 35,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/Foot.js",
-                    lineNumber: 15,
+                    lineNumber: 34,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/Foot.js",
-            lineNumber: 9,
+            lineNumber: 16,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/Foot.js",
-        lineNumber: 8,
+        lineNumber: 15,
         columnNumber: 5
     }, this);
 }
@@ -35956,6 +35976,143 @@ $RefreshReg$(_c, "Foot");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@heroicons/react/20/solid":"biQa5","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["icZzK","1xC6H","8lqZg"], "8lqZg", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../assets/github-icon.svg":"2qkFC","../assets/linkedin-icon.svg":"1M7nC"}],"2qkFC":[function(require,module,exports) {
+module.exports = require("4cba5dc82b2d0032").getBundleURL("bLxZJ") + "github-icon.589fe135.svg" + "?" + Date.now();
+
+},{"4cba5dc82b2d0032":"lgJ39"}],"1M7nC":[function(require,module,exports) {
+module.exports = require("6321245908582c94").getBundleURL("bLxZJ") + "linkedin-icon.8e8ac926.svg" + "?" + Date.now();
+
+},{"6321245908582c94":"lgJ39"}],"cJuRA":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$aec1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$aec1.prelude(module);
+
+try {
+// src/components/Projects.js
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Work);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _solid = require("@heroicons/react/20/solid");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _data = require("../data");
+function Work() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        id: "projects",
+        className: "text-gray-400 bg-zinc-50 body-font",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container px-6 pt-24 mx-auto text-left max-w-5xl font-body  ",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                    fileName: "src/components/Work.js",
+                    lineNumber: 12,
+                    columnNumber: 7
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex flex-col w-full mt-1",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "text-sm font-medium mb-10 mt-2 text-slate-950",
+                        children: "Work"
+                    }, void 0, false, {
+                        fileName: "src/components/Work.js",
+                        lineNumber: 14,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/Work.js",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex flex-wrap -m-4",
+                    children: (0, _data.work).map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: project.link,
+                            target: "_blank",
+                            className: "sm:w-1/2 w-100 p-4",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex relative",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        alt: "gallery",
+                                        className: "absolute inset-0 w-full h-full object-cover object-center border-slate-300 border-solid border-2",
+                                        src: project.image
+                                    }, void 0, false, {
+                                        fileName: "src/components/Work.js",
+                                        lineNumber: 31,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-slate-950 opacity-0 hover:opacity-100",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                                className: "tracking-widest text-sm title-font font-medium text-amber-400 mb-1",
+                                                children: project.subtitle
+                                            }, void 0, false, {
+                                                fileName: "src/components/Work.js",
+                                                lineNumber: 38,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                                className: "title-font text-lg font-medium text-white mb-3",
+                                                children: project.title
+                                            }, void 0, false, {
+                                                fileName: "src/components/Work.js",
+                                                lineNumber: 41,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "leading-relaxed",
+                                                children: project.description
+                                            }, void 0, false, {
+                                                fileName: "src/components/Work.js",
+                                                lineNumber: 44,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Work.js",
+                                        lineNumber: 37,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Work.js",
+                                lineNumber: 30,
+                                columnNumber: 15
+                            }, this)
+                        }, project.image, false, {
+                            fileName: "src/components/Work.js",
+                            lineNumber: 25,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "src/components/Work.js",
+                    lineNumber: 23,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Work.js",
+            lineNumber: 11,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/Work.js",
+        lineNumber: 9,
+        columnNumber: 5
+    }, this);
+}
+_c = Work;
+var _c;
+$RefreshReg$(_c, "Work");
+
+  $parcel$ReactRefreshHelpers$aec1.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@heroicons/react/20/solid":"biQa5","react":"21dqq","../data":"9kapS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["icZzK","1xC6H","8lqZg"], "8lqZg", "parcelRequire94c2")
 
 //# sourceMappingURL=index.975ef6c8.js.map

@@ -2,9 +2,9 @@
 
 import { CodeBracketIcon} from "@heroicons/react/20/solid";
 import React from "react";
-import { projects } from "../data";
+import { work } from "../data";
 
-export default function Projects() {
+export default function Work() {
   return (
     <section id="projects" className="text-gray-400 bg-zinc-50 body-font">
       
@@ -12,7 +12,7 @@ export default function Projects() {
       <hr></hr>
         <div className="flex flex-col w-full mt-1">
           <h1 className="text-sm font-medium mb-10 mt-2 text-slate-950">
-            PROJECTS
+            Work
           </h1>
           {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
@@ -21,7 +21,7 @@ export default function Projects() {
           </p> */}
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
+          {work.map((project) => (
             <a
               href={project.link}
               target="_blank"

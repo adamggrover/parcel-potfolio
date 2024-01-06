@@ -3,39 +3,28 @@ import p2gif from "./assets/project-2.gif";
 import p3gif from "./assets/project-3.gif";
 import p4gif from "./assets/project-4.gif";
 
-export const projects = [
+export const work = [
   {
-    title: "React Reserve",
+    title: "Rock, Paper, Scissors",
     subtitle: "MERN Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: p1gif,
-    link: "https://reactbootcamp.com",
+    link: "https://adamggrover.github.io/rock-paper-scissors-game/",
   },
+  
+];
+
+export const projects = [
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Rock, Paper, Scissors",
+    subtitle: "MERN Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: p2gif,
-    link: "https://reactbootcamp.com",
+    image: p1gif,
+    link: "https://adamggrover.github.io/rock-paper-scissors-game/",
   },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: p3gif,
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: p4gif,
-    link: "https://reactbootcamp.com",
-  },
+  
 ];
 
 export const testimonials = [
@@ -56,12 +45,15 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  'HTML',
+  'CSS',
+  'Javascript',
+  'NPM',
+  'React',
+  'C#',
+  'Python',
+  'Git'
+  
 ];
 
 export const blogs = [

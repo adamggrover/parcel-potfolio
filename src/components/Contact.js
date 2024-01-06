@@ -51,32 +51,32 @@ export default function Contact() {
                 type="text"
                 id="name"
                 name="name"
-                className="w-full  border border-gray-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full  border border-gray-700 focus:border-amber-400 focus:ring-2 focus:ring-amber-400 text-base outline-none text-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 onChange={(e) => setName(e.target.value)}
               />
             </div>
             <div className="relative mb-4">
-              <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+              <label htmlFor="email" className="leading-7 text-sm text-gray-600">
                 Email
               </label>
               <input
                 type="email"
                 id="email"
                 name="email"
-                className="w-full bg-gray-800 border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full border border-gray-700 focus:border-amber-400 focus:ring-2 focus:ring-amber-400 text-base outline-none text-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <div className="relative mb-4">
               <label
                 htmlFor="message"
-                className="leading-7 text-sm text-gray-400">
+                className="leading-7 text-sm text-gray-600">
                 Message
               </label>
               <textarea
                 id="message"
                 name="message"
-                className="w-full border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                className="w-full border border-gray-700 focus:border-amber-400 focus:ring-2 focus:ring-amber-400 h-32 text-base outline-none text-gray-600 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 onChange={(e) => setMessage(e.target.value)}
               />
             </div>
