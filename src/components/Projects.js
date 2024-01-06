@@ -12,7 +12,7 @@ export default function Projects() {
       <hr></hr>
         <div className="flex flex-col w-full mt-1">
           <h1 className="text-sm font-medium mb-10 mt-2 text-slate-950">
-            PROJECTS
+            MINI-PROJECTS
           </h1>
           {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
@@ -34,7 +34,7 @@ export default function Projects() {
                   src={project.image}
                   
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-slate-950 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full h-72 border-4 border-gray-800 bg-slate-950 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-amber-400 mb-1">
                     {project.subtitle}
                   </h2>

@@ -16,8 +16,8 @@ export function App() {
       <Navbar />
       <About />
       <Work />
-      <Projects />
       <Skills />
+      <Projects />
       {/* <Blog /> */}
       <Contact />
       <Foot />

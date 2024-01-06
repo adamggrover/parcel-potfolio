@@ -378,6 +378,10 @@ img, video {
   margin-top: 2rem;
 }
 
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -400,6 +404,26 @@ img, video {
 
 .h-full {
   height: 100%;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-max {
+  height: max-content;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-72 {
+  height: 18rem;
 }
 
 .w-5\/6 {

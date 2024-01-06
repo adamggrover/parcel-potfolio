@@ -27193,12 +27193,12 @@ function App() {
                 lineNumber: 18,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 19,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
                 lineNumber: 20,
                 columnNumber: 7
@@ -27793,9 +27793,9 @@ function Navbar() {
                     className: "  md:ml-auto md:mr-8 md:py-1 md:pl-4  flex flex-wrap items-center text-sm justify-center font-body",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "#projects",
-                            className: "mr-8 hover:text-white",
-                            children: "Projects"
+                            href: "#work",
+                            className: "mr-6 hover:text-white",
+                            children: "Work"
                         }, void 0, false, {
                             fileName: "src/components/Navbar.js",
                             lineNumber: 16,
@@ -27803,11 +27803,20 @@ function Navbar() {
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                             href: "#skills",
-                            className: "mr-3 hover:text-white",
+                            className: "mr-6 hover:text-white",
                             children: "Skills"
                         }, void 0, false, {
                             fileName: "src/components/Navbar.js",
                             lineNumber: 19,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#projects",
+                            className: "mr-6 hover:text-white",
+                            children: "Mini-Projects"
+                        }, void 0, false, {
+                            fileName: "src/components/Navbar.js",
+                            lineNumber: 22,
                             columnNumber: 11
                         }, this)
                     ]
@@ -27822,7 +27831,7 @@ function Navbar() {
                     children: "CONTACT"
                 }, void 0, false, {
                     fileName: "src/components/Navbar.js",
-                    lineNumber: 26,
+                    lineNumber: 30,
                     columnNumber: 9
                 }, this)
             ]
@@ -35442,7 +35451,7 @@ function Projects() {
                     className: "flex flex-col w-full mt-1",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         className: "text-sm font-medium mb-10 mt-2 text-slate-950",
-                        children: "PROJECTS"
+                        children: "MINI-PROJECTS"
                     }, void 0, false, {
                         fileName: "src/components/Projects.js",
                         lineNumber: 14,
@@ -35472,7 +35481,7 @@ function Projects() {
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-slate-950 opacity-0 hover:opacity-100",
+                                        className: "px-8 py-10 relative z-10 w-full h-72 border-4 border-gray-800 bg-slate-950 opacity-0 hover:opacity-100",
                                         children: [
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                                 className: "tracking-widest text-sm title-font font-medium text-amber-400 mb-1",
@@ -35559,7 +35568,14 @@ var _project4Gif = require("./assets/project-4.gif");
 var _project4GifDefault = parcelHelpers.interopDefault(_project4Gif);
 const work = [
     {
-        title: "Rock, Paper, Scissors",
+        title: "Fairlands Middle School",
+        subtitle: "Wordpress/Custom Theme Build/Custom Posts/Multi-site/Bootstrap/ACF",
+        description: "Custom wordpress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
+        image: (0, _project1GifDefault.default),
+        link: "https://fairlandsmiddleschool.co.uk"
+    },
+    {
+        title: "Fairlands Middle School",
         subtitle: "MERN Stack",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
         image: (0, _project1GifDefault.default),
@@ -36000,7 +36016,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _data = require("../data");
 function Work() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "projects",
+        id: "work",
         className: "text-gray-400 bg-zinc-50 body-font",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "container px-6 pt-24 mx-auto text-left max-w-5xl font-body  ",
@@ -36044,7 +36060,7 @@ function Work() {
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-slate-950 opacity-0 hover:opacity-100",
+                                        className: "px-8 py-10 relative z-10 w-full h-72 border-4 border-gray-800 bg-slate-950 opacity-0 hover:opacity-100",
                                         children: [
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                                                 className: "tracking-widest text-sm title-font font-medium text-amber-400 mb-1",

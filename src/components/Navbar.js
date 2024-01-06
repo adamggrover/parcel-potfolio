@@ -13,12 +13,16 @@ export default function Navbar() {
           </a>
         </a>
         <nav className="  md:ml-auto md:mr-8 md:py-1 md:pl-4  flex flex-wrap items-center text-sm justify-center font-body">
-          <a href="#projects" className="mr-8 hover:text-white">
-            Projects
-          </a>
-          <a href="#skills" className="mr-3 hover:text-white">
+          <a href="#work" className="mr-6 hover:text-white">
+            Work
+          </a>  
+          <a href="#skills" className="mr-6 hover:text-white">
             Skills
+          </a>        
+          <a href="#projects" className="mr-6 hover:text-white">
+            Mini-Projects
           </a>
+
           {/* <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
           </a> */}

@@ -6,7 +6,7 @@ import { work } from "../data";
 
 export default function Work() {
   return (
-    <section id="projects" className="text-gray-400 bg-zinc-50 body-font">
+    <section id="work" className="text-gray-400 bg-zinc-50 body-font">
       
       <div className="container px-6 pt-24 mx-auto text-left max-w-5xl font-body  ">
       <hr></hr>
@@ -34,7 +34,7 @@ export default function Work() {
                   src={project.image}
                   
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-slate-950 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full h-72 border-4 border-gray-800 bg-slate-950 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-amber-400 mb-1">
                     {project.subtitle}
                   </h2>
