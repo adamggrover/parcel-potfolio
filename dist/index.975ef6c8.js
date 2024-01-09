@@ -27174,7 +27174,7 @@ var _foot = require("./components/Foot");
 var _footDefault = parcelHelpers.interopDefault(_foot);
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-        className: "text-gray-200 bg-zinc-50",
+        className: "text-gray-200 bg-neutral-50",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
@@ -35554,14 +35554,8 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "work", ()=>work);
 parcelHelpers.export(exports, "projects", ()=>projects);
 parcelHelpers.export(exports, "skills", ()=>skills);
-var _project1Gif = require("./assets/project-1.gif");
-var _project1GifDefault = parcelHelpers.interopDefault(_project1Gif);
-var _project2Gif = require("./assets/project-2.gif");
-var _project2GifDefault = parcelHelpers.interopDefault(_project2Gif);
-var _project3Gif = require("./assets/project-3.gif");
-var _project3GifDefault = parcelHelpers.interopDefault(_project3Gif);
-var _project4Gif = require("./assets/project-4.gif");
-var _project4GifDefault = parcelHelpers.interopDefault(_project4Gif);
+var _rockPaperScissorsGif = require("./assets/rock-paper-scissors.gif");
+var _rockPaperScissorsGifDefault = parcelHelpers.interopDefault(_rockPaperScissorsGif);
 var _fairlandsGifGif = require("./assets/fairlands-gif.gif");
 var _fairlandsGifGifDefault = parcelHelpers.interopDefault(_fairlandsGifGif);
 var _wltGif = require("./assets/wlt.gif");
@@ -35577,7 +35571,7 @@ const work = [
     {
         title: "Wessex Learning Trust",
         subtitle: "Wordpress/Bootstrap/ACF",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        description: "Custom worrdpress theme build for the Wessex Learning Trust.",
         image: (0, _wltGifDefault.default),
         link: "https://adamggrover.github.io/rock-paper-scissors-game/"
     }
@@ -35585,9 +35579,9 @@ const work = [
 const projects = [
     {
         title: "Rock, Paper, Scissors Game",
-        subtitle: "Javascript/Webpack",
+        subtitle: "Javascript/Tailwind/Parcel",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: (0, _project1GifDefault.default),
+        image: (0, _rockPaperScissorsGifDefault.default),
         link: "https://adamggrover.github.io/rock-paper-scissors-game/"
     }
 ];
@@ -35604,25 +35598,16 @@ const skills = [
     "Git"
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/project-1.gif":"7YsID","./assets/project-2.gif":"gKWzr","./assets/project-3.gif":"6x0kF","./assets/project-4.gif":"175Vl","./assets/fairlands-gif.gif":"wSK8b","./assets/wlt.gif":"78Owd"}],"7YsID":[function(require,module,exports) {
-module.exports = require("fa5d29e76ac2bdf9").getBundleURL("bLxZJ") + "project-1.1e1994d1.gif" + "?" + Date.now();
-
-},{"fa5d29e76ac2bdf9":"lgJ39"}],"gKWzr":[function(require,module,exports) {
-module.exports = require("1e7b68a428be260d").getBundleURL("bLxZJ") + "project-2.73afa2d5.gif" + "?" + Date.now();
-
-},{"1e7b68a428be260d":"lgJ39"}],"6x0kF":[function(require,module,exports) {
-module.exports = require("cc4d4141759f74ba").getBundleURL("bLxZJ") + "project-3.ec24547c.gif" + "?" + Date.now();
-
-},{"cc4d4141759f74ba":"lgJ39"}],"175Vl":[function(require,module,exports) {
-module.exports = require("b57c33c29b5722d9").getBundleURL("bLxZJ") + "project-4.167a0415.gif" + "?" + Date.now();
-
-},{"b57c33c29b5722d9":"lgJ39"}],"wSK8b":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/fairlands-gif.gif":"wSK8b","./assets/wlt.gif":"78Owd","./assets/rock-paper-scissors.gif":"7ecpY"}],"wSK8b":[function(require,module,exports) {
 module.exports = require("2c0ccf483e088c26").getBundleURL("bLxZJ") + "fairlands-gif.d98bf0cd.gif" + "?" + Date.now();
 
 },{"2c0ccf483e088c26":"lgJ39"}],"78Owd":[function(require,module,exports) {
 module.exports = require("5ada7644bdda0da2").getBundleURL("bLxZJ") + "wlt.a9fd377d.gif" + "?" + Date.now();
 
-},{"5ada7644bdda0da2":"lgJ39"}],"OHDzu":[function(require,module,exports) {
+},{"5ada7644bdda0da2":"lgJ39"}],"7ecpY":[function(require,module,exports) {
+module.exports = require("c87258f4b33a385c").getBundleURL("bLxZJ") + "rock-paper-scissors.33fb747a.gif" + "?" + Date.now();
+
+},{"c87258f4b33a385c":"lgJ39"}],"OHDzu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$14cb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35886,7 +35871,7 @@ function Work() {
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         alt: "gallery",
-                                        className: "absolute inset-0 w-full h-full object-cover object-center border-slate-300 border-solid border-2",
+                                        className: "absolute inset-0 w-full h-full object-cover object-top border-slate-300 border-solid border-2",
                                         src: project.image
                                     }, void 0, false, {
                                         fileName: "src/components/Work.js",

@@ -30,7 +30,7 @@ export default function Work() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center border-slate-300 border-solid border-2"
+                  className="absolute inset-0 w-full h-full object-cover object-top border-slate-300 border-solid border-2"
                   src={project.image}
                   
                 />
