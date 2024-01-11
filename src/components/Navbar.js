@@ -19,7 +19,7 @@ export default function Navbar() {
           <a href="#skills" className="mr-6 hover:text-white">
             Skills
           </a>        
-          <a href="#projects" className="mr-6 hover:text-white">
+          <a href="#projects" className="md:mr-6 hover:text-white">
             Mini-Projects
           </a>
 
