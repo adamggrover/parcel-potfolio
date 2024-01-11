@@ -27810,7 +27810,7 @@ function Navbar() {
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                             href: "#projects",
-                            className: "mr-6 hover:text-white",
+                            className: "md:mr-6 hover:text-white",
                             children: "Mini-Projects"
                         }, void 0, false, {
                             fileName: "src/components/Navbar.js",
@@ -35728,13 +35728,13 @@ var _githubIconSvgDefault = parcelHelpers.interopDefault(_githubIconSvg);
 var _linkedinIconSvg = require("../assets/linkedin-icon.svg");
 var _linkedinIconSvgDefault = parcelHelpers.interopDefault(_linkedinIconSvg);
 function Foot() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
         className: "bg-primary z-20",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "container mx-auto flex flex-wrap py-7 px-6 flex-col md:flex-row items-center max-w-5xl font-light",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "  md:ml-auto  md:py-1 md:pl-4  flex flex-wrap items-center text-xs justify-end font-body gap-2",
+                    className: "mb-2  md:ml-auto  md:py-1 md:pl-4  flex flex-wrap items-center text-xs justify-end font-body gap-2",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                             href: "https://www.linkedin.com/in/adamggrover/",
@@ -35774,8 +35774,8 @@ function Foot() {
                     lineNumber: 18,
                     columnNumber: 9
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                    className: "md:py-1 ml-6 flex flex-wrap items-center text-xs justify-center font-body",
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "mb-2 md:py-1 ml-6 flex flex-wrap items-center text-xs justify-center font-body",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                         href: "mailto:adamggrover@gmail.com",
                         className: " hover:text-white fon-body text-xs",
