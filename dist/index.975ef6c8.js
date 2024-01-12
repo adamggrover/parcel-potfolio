@@ -27421,7 +27421,7 @@ function About() {
                     className: "lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: " sm:text-5xl font-light mb-1 text-primary font-clean",
+                            className: "text-5xl font-light mb-3 text-primary font-clean",
                             children: "Hi, I'm Adam."
                         }, void 0, false, {
                             fileName: "src/components/About.js",
@@ -27445,7 +27445,7 @@ function About() {
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             className: "mb-10 leading-relaxed text-gray-400 font-body text-sm",
-                            children: "I believe technology can have a positive impact in the world."
+                            children: "I am enthusiastic about technology and the impact it can have on the world."
                         }, void 0, false, {
                             fileName: "src/components/About.js",
                             lineNumber: 17,

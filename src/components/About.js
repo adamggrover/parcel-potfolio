@@ -8,14 +8,14 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex pt-20 px-6 md:flex-row flex-col items-center max-w-5xl">
         <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
-          <h1 className=" sm:text-5xl font-light mb-1 text-primary font-clean">
+          <h1 className="text-5xl font-light mb-3 text-primary font-clean">
             Hi, I'm Adam.
           </h1>
             <br className="hidden lg:inline-block" />
             <h3 className=" text-xl text-gray-600 mb-4 font-clean font-light">I'm a developer based in Bristol.</h3>
           
           <p className="mb-10 leading-relaxed text-gray-400 font-body text-sm">
-            I believe technology can have a positive impact in the world.
+            I am enthusiastic about technology and the impact it can have on the world.
           </p>
           <div className="flex justify-center">
             <a
