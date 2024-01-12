@@ -35580,18 +35580,20 @@ var _wltGif = require("./assets/wlt.gif");
 var _wltGifDefault = parcelHelpers.interopDefault(_wltGif);
 var _colourApiGif = require("./assets/colour-api.gif");
 var _colourApiGifDefault = parcelHelpers.interopDefault(_colourApiGif);
+var _travelGif = require("./assets/travel.gif");
+var _travelGifDefault = parcelHelpers.interopDefault(_travelGif);
 const work = [
     {
         title: "Fairlands Middle School",
-        subtitle: "Wordpress/Bootstrap/ACF",
-        description: "Custom wordpress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
+        subtitle: "WordPress/Bootstrap/ACF",
+        description: "Custom WordPress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
         image: (0, _fairlandsGifGifDefault.default),
         link: "https://fairlandsmiddleschool.co.uk"
     },
     {
         title: "Wessex Learning Trust",
-        subtitle: "Wordpress/Bootstrap/ACF",
-        description: "Custom worrdpress theme build for the Wessex Learning Trust.",
+        subtitle: "WordPress/Bootstrap/ACF",
+        description: "Custom WordPress theme build for the Wessex Learning Trust.",
         image: (0, _wltGifDefault.default),
         link: "https://adamggrover.github.io/rock-paper-scissors-game/"
     }
@@ -35600,21 +35602,21 @@ const projects = [
     {
         title: "Colour Scheme Generator",
         subtitle: "Javascript/API",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        description: "A small colour scheme generator app I built to practice working with APIs",
         image: (0, _colourApiGifDefault.default),
         link: "https://colour-scheme-app.netlify.app/"
     },
     {
         title: "My Travel Journal",
-        subtitle: "Javascript/Tailwind/Parcel",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: (0, _rockPaperScissorsGifDefault.default),
-        link: "https://adamggrover.github.io/rock-paper-scissors-game/"
+        subtitle: "Javascript/React/Vite",
+        description: "A basic static React app I made to practice working with React and Vite",
+        image: (0, _travelGifDefault.default),
+        link: "https://my-travel-react-app.netlify.app/"
     },
     {
         title: "Rock, Paper, Scissors Game",
         subtitle: "Javascript/Tailwind/Parcel",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        description: "A simple game I built to improve my Javascript knowledge",
         image: (0, _rockPaperScissorsGifDefault.default),
         link: "https://adamggrover.github.io/rock-paper-scissors-game/"
     }
@@ -35632,7 +35634,7 @@ const skills = [
     "Git"
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/fairlands-gif.gif":"wSK8b","./assets/wlt.gif":"78Owd","./assets/rock-paper-scissors.gif":"7ecpY","./assets/colour-api.gif":"5Wc3o"}],"wSK8b":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/fairlands-gif.gif":"wSK8b","./assets/wlt.gif":"78Owd","./assets/rock-paper-scissors.gif":"7ecpY","./assets/colour-api.gif":"5Wc3o","./assets/travel.gif":"9Tjd8"}],"wSK8b":[function(require,module,exports) {
 module.exports = require("2c0ccf483e088c26").getBundleURL("bLxZJ") + "fairlands-gif.d98bf0cd.gif" + "?" + Date.now();
 
 },{"2c0ccf483e088c26":"lgJ39"}],"78Owd":[function(require,module,exports) {
@@ -35644,7 +35646,10 @@ module.exports = require("c87258f4b33a385c").getBundleURL("bLxZJ") + "rock-paper
 },{"c87258f4b33a385c":"lgJ39"}],"5Wc3o":[function(require,module,exports) {
 module.exports = require("dd8274f8de352193").getBundleURL("bLxZJ") + "colour-api.2cdaa6f2.gif" + "?" + Date.now();
 
-},{"dd8274f8de352193":"lgJ39"}],"OHDzu":[function(require,module,exports) {
+},{"dd8274f8de352193":"lgJ39"}],"9Tjd8":[function(require,module,exports) {
+module.exports = require("ef5f86d0521c0c54").getBundleURL("bLxZJ") + "travel.d23f740e.gif" + "?" + Date.now();
+
+},{"ef5f86d0521c0c54":"lgJ39"}],"OHDzu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$14cb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

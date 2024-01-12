@@ -4,21 +4,22 @@ import rockPaperScissorsGif from "./assets/rock-paper-scissors.gif";
 import fairlandsGif from "./assets/fairlands-gif.gif"
 import wltGif from "./assets/wlt.gif"
 import colorGif from "./assets/colour-api.gif"
+import travelGif from "./assets/travel.gif"
 
 export const work = [
   {
     title: "Fairlands Middle School",
-    subtitle: "Wordpress/Bootstrap/ACF",
+    subtitle: "WordPress/Bootstrap/ACF",
     description:
-      "Custom wordpress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
+      "Custom WordPress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
     image: fairlandsGif,
     link: "https://fairlandsmiddleschool.co.uk",
   },
   {
     title: "Wessex Learning Trust",
-    subtitle: "Wordpress/Bootstrap/ACF",
+    subtitle: "WordPress/Bootstrap/ACF",
     description:
-      "Custom worrdpress theme build for the Wessex Learning Trust.",
+      "Custom WordPress theme build for the Wessex Learning Trust.",
     image: wltGif,
     link: "https://adamggrover.github.io/rock-paper-scissors-game/",
   }
@@ -31,23 +32,23 @@ export const projects = [
     title: "Colour Scheme Generator",
     subtitle: "Javascript/API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A small colour scheme generator app I built to practice working with APIs",
     image: colorGif,
     link: "https://colour-scheme-app.netlify.app/",
   },
   {
     title: "My Travel Journal",
-    subtitle: "Javascript/Tailwind/Parcel",
+    subtitle: "Javascript/React/Vite",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: rockPaperScissorsGif,
-    link: "https://adamggrover.github.io/rock-paper-scissors-game/",
+      "A basic static React app I made to practice working with React and Vite",
+    image: travelGif,
+    link: "https://my-travel-react-app.netlify.app/",
   },
   {
     title: "Rock, Paper, Scissors Game",
     subtitle: "Javascript/Tailwind/Parcel",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A simple game I built to improve my Javascript knowledge",
     image: rockPaperScissorsGif,
     link: "https://adamggrover.github.io/rock-paper-scissors-game/",
   },
