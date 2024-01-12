@@ -66,7 +66,7 @@ export const skills = [
   'Javascript',
   'NPM',
   'Gulp',
-  'Wordpress',
+  'WordPress',
   'Webpack/Parcel',
   'PHP',
   'React',
