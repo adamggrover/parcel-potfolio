@@ -40,7 +40,7 @@ export const projects = [
     title: "My Travel Journal",
     subtitle: "Javascript/React/Vite",
     description:
-      "A basic static React app I made to practice working with React and Vite",
+      "A simple static React app I made to practice working with React and Vite",
     image: travelGif,
     link: "https://my-travel-react-app.netlify.app/",
   },

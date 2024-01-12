@@ -27630,7 +27630,7 @@ function Contact() {
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: " leading-relaxed text-sm mb-10 text-gray-400",
-                        children: "Whether it's about collaborating on a project, or you just want to say hi - I'm always keen to hear from new people!"
+                        children: "Whether it's about collaborating on a project, or you just want to say hi, get in touch!"
                     }, void 0, false, {
                         fileName: "src/components/Contact.js",
                         lineNumber: 46,
@@ -35609,7 +35609,7 @@ const projects = [
     {
         title: "My Travel Journal",
         subtitle: "Javascript/React/Vite",
-        description: "A basic static React app I made to practice working with React and Vite",
+        description: "A simple static React app I made to practice working with React and Vite",
         image: (0, _travelGifDefault.default),
         link: "https://my-travel-react-app.netlify.app/"
     },
