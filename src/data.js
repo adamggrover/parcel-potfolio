@@ -14,6 +14,7 @@ export const work = [
       "Custom WordPress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
     image: fairlandsGif,
     link: "https://fairlandsmiddleschool.co.uk",
+    alt: "preview of Fairlands Middle School Website"
   },
   {
     title: "Wessex Learning Trust",
@@ -22,6 +23,7 @@ export const work = [
       "Custom WordPress theme build for the Wessex Learning Trust.",
     image: wltGif,
     link: "https://adamggrover.github.io/rock-paper-scissors-game/",
+    alt: "preview of Wessex Learning Trust Website"
   }
   
 ];
@@ -35,6 +37,7 @@ export const projects = [
       "A small colour scheme generator app I built to practice working with APIs",
     image: colorGif,
     link: "https://colour-scheme-app.netlify.app/",
+    alt: "preview of colour scheme app"
   },
   {
     title: "My Travel Journal",
@@ -43,6 +46,7 @@ export const projects = [
       "A simple static React app I made to practice working with React and Vite",
     image: travelGif,
     link: "https://my-travel-react-app.netlify.app/",
+    alt: "preview of travel journey app"
   },
   {
     title: "Rock, Paper, Scissors Game",
@@ -51,6 +55,7 @@ export const projects = [
       "A simple game I built to improve my Javascript knowledge",
     image: rockPaperScissorsGif,
     link: "https://adamggrover.github.io/rock-paper-scissors-game/",
+    alt: "preview of rock, paper, scissors game"
   },
 ];
 

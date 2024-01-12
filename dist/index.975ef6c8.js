@@ -35488,7 +35488,7 @@ function Projects() {
                                 className: "flex relative",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        alt: "gallery",
+                                        alt: project.alt,
                                         className: "absolute inset-0 w-full h-full object-cover object-top border-slate-300 border-solid border-2",
                                         src: project.image
                                     }, void 0, false, {
@@ -35588,14 +35588,16 @@ const work = [
         subtitle: "WordPress/Bootstrap/ACF",
         description: "Custom WordPress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
         image: (0, _fairlandsGifGifDefault.default),
-        link: "https://fairlandsmiddleschool.co.uk"
+        link: "https://fairlandsmiddleschool.co.uk",
+        alt: "preview of Fairlands Middle School Website"
     },
     {
         title: "Wessex Learning Trust",
         subtitle: "WordPress/Bootstrap/ACF",
         description: "Custom WordPress theme build for the Wessex Learning Trust.",
         image: (0, _wltGifDefault.default),
-        link: "https://adamggrover.github.io/rock-paper-scissors-game/"
+        link: "https://adamggrover.github.io/rock-paper-scissors-game/",
+        alt: "preview of Wessex Learning Trust Website"
     }
 ];
 const projects = [
@@ -35604,21 +35606,24 @@ const projects = [
         subtitle: "Javascript/API",
         description: "A small colour scheme generator app I built to practice working with APIs",
         image: (0, _colourApiGifDefault.default),
-        link: "https://colour-scheme-app.netlify.app/"
+        link: "https://colour-scheme-app.netlify.app/",
+        alt: "preview of colour scheme app"
     },
     {
         title: "My Travel Journal",
         subtitle: "Javascript/React/Vite",
         description: "A simple static React app I made to practice working with React and Vite",
         image: (0, _travelGifDefault.default),
-        link: "https://my-travel-react-app.netlify.app/"
+        link: "https://my-travel-react-app.netlify.app/",
+        alt: "preview of travel journey app"
     },
     {
         title: "Rock, Paper, Scissors Game",
         subtitle: "Javascript/Tailwind/Parcel",
         description: "A simple game I built to improve my Javascript knowledge",
         image: (0, _rockPaperScissorsGifDefault.default),
-        link: "https://adamggrover.github.io/rock-paper-scissors-game/"
+        link: "https://adamggrover.github.io/rock-paper-scissors-game/",
+        alt: "preview of rock, paper, scissors game"
     }
 ];
 const skills = [
@@ -35912,7 +35917,7 @@ function Work() {
                                 className: "flex relative",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        alt: "gallery",
+                                        alt: project.alt,
                                         className: "absolute inset-0 w-full h-full object-cover object-top border-slate-300 border-solid border-2",
                                         src: project.image
                                     }, void 0, false, {
