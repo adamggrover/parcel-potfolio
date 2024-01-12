@@ -860,10 +860,6 @@ img, video {
     display: inline-block;
   }
 
-  .lg\:w-2\/3 {
-    width: 66.6667%;
-  }
-
   .lg\:flex-grow {
     flex-grow: 1;
   }

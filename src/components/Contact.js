@@ -29,20 +29,23 @@ export default function Contact() {
     return (
       <section id="contact" className="relative">
         <div className="container px-6 py-10 max-w-5xl font-body mx-auto flex sm:flex-nowrap flex-wrap">
+        
 
           <form
             netlify
             name="contact"
             onSubmit={handleSubmit}
             className="w-full flex flex-col mx-auto md:py-8 mt-8 md:mt-0">
+
+              
             <hr></hr>
+            
             <h1 className="text-sm  font-medium mb-10 mt-2 text-primary">
               CONTACT
             </h1>
-            {/* <p className="leading-relaxed mb-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-              suscipit officia aspernatur veritatis. Asperiores, aliquid?
-            </p> */}
+            <p className=" leading-relaxed text-sm mb-10 text-gray-400">
+            Whether it's about collaborating on a project, or you just want to say hi - I'm always keen to hear from new people!
+          </p>
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-gray-600">
                 Name

@@ -14,11 +14,9 @@ export default function Projects() {
           <h1 className="text-sm font-medium mb-10 mt-2 text-primary">
             MINI-PROJECTS
           </h1>
-          {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
-          </p> */}
+          <p className=" leading-relaxed text-sm mb-10 text-gray-400">
+            Small personal projects I've completed in my own time to help further my knowledge and have some fun.
+          </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
@@ -30,7 +28,7 @@ export default function Projects() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center border-slate-300 border-solid border-2"
+                  className="absolute inset-0 w-full h-full object-cover object-top border-slate-300 border-solid border-2"
                   src={project.image}
                   
                 />

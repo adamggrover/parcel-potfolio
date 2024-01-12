@@ -14,10 +14,8 @@ export default function Work() {
           <h1 className="text-sm font-medium mb-10 mt-2 text-primary">
             Work
           </h1>
-          {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-sm">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+          {/* <p className=" leading-relaxed text-sm mb-10">
+            Some recent projects I have completed in a professional capacity.
           </p> */}
         </div>
         <div className="flex flex-wrap -m-4">

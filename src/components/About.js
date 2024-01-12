@@ -15,9 +15,7 @@ export default function About() {
             <h3 className=" text-xl text-gray-600 mb-4 font-clean font-light">I'm a developer based in Bristol.</h3>
           
           <p className="mb-10 leading-relaxed text-gray-400 font-body text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            I believe technology can have a positive impact in the world.
           </p>
           <div className="flex justify-center">
             <a
