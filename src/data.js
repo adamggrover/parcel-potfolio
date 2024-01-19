@@ -5,6 +5,7 @@ import fairlandsGif from "./assets/fairlands-gif.gif"
 import wltGif from "./assets/wlt.gif"
 import colorGif from "./assets/colour-api.gif"
 import travelGif from "./assets/travel.gif"
+import moviesGif from "./assets/movies.gif"
 
 export const work = [
   {
@@ -30,6 +31,15 @@ export const work = [
 
 export const projects = [
 
+  {
+    title: "Movie Watchlist Creator",
+    subtitle: "Javascript/API",
+    description:
+      "A movie watchlist app that I created by using OMDB api",
+    image: moviesGif,
+    link: "https://movie-db-watchlist.netlify.app/",
+    alt: "preview of movie watchlist app"
+  },
   {
     title: "Colour Scheme Generator",
     subtitle: "Javascript/API",
