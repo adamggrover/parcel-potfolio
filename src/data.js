@@ -22,7 +22,7 @@ export const work = [
     description:
       "Custom WordPress theme build for the Wessex Learning Trust.",
     image: wltGif,
-    link: "https://adamggrover.github.io/rock-paper-scissors-game/",
+    link: "https://wessexlearningtrust.co.uk/",
     alt: "preview of Wessex Learning Trust Website"
   }
   
