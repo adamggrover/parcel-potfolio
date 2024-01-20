@@ -35,7 +35,7 @@ export const projects = [
     title: "Movie Watchlist Creator",
     subtitle: "Javascript/API",
     description:
-      "A movie watchlist app that I created by using the OMDB api",
+      "A movie watchlist app that I created by using the OMDB API",
     image: moviesGif,
     link: "https://movie-db-watchlist.netlify.app/",
     alt: "preview of movie watchlist app"
