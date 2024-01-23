@@ -8,7 +8,7 @@ export default function Navbar() {
     <header className="bg-primary md:sticky top-0 z-20">
       <div className="container mx-auto flex flex-wrap py-6 px-6 flex-col md:flex-row items-center max-w-5xl font-light">
         <a className="text-white mb-4 md:mb-0">
-          <a href="#about" className="text-3xl font-clean text-white">
+          <a href="./" className="text-3xl font-clean text-white">
             Adam Grover
           </a>
         </a>

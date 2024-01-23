@@ -27784,7 +27784,7 @@ function Navbar() {
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                     className: "text-white mb-4 md:mb-0",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "#about",
+                        href: "./",
                         className: "text-3xl font-clean text-white",
                         children: "Adam Grover"
                     }, void 0, false, {
