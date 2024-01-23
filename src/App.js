@@ -1,12 +1,11 @@
 import React from "react";
 import About from "./components/About";
-import Work from "./components/Work";
+const Work = React.lazy(() => import("./components/Work"));
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+const Projects = React.lazy(() => import("./components/Projects"));
 import Skills from "./components/Skills";
 import Foot from "./components/Foot";
-
 
 
 

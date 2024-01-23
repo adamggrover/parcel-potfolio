@@ -1,11 +1,11 @@
-import rockPaperScissorsGif from "./assets/rock-paper-scissors.gif";
+import rockPaperScissorsMov from "./assets/rock-paper-scissors.webp";
+import fairlandsMov from "./assets/fairlands.webp"
+import wltMov from "./assets/wlt.webp"
+import colourMov from "./assets/colour.webp"
+import travelMov from "./assets/travel.webp"
+import moviesMov from "./assets/movies.webp"
 
 
-import fairlandsGif from "./assets/fairlands-gif.gif"
-import wltGif from "./assets/wlt.gif"
-import colorGif from "./assets/colour-api.gif"
-import travelGif from "./assets/travel.gif"
-import moviesGif from "./assets/movies.gif"
 
 export const work = [
   {
@@ -13,7 +13,7 @@ export const work = [
     subtitle: "WordPress/Bootstrap/ACF",
     description:
       "Custom WordPress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
-    image: fairlandsGif,
+    image: fairlandsMov,
     link: "https://fairlandsmiddleschool.co.uk",
     alt: "preview of Fairlands Middle School Website"
   },
@@ -22,7 +22,7 @@ export const work = [
     subtitle: "WordPress/Bootstrap/ACF",
     description:
       "Custom WordPress theme build for the Wessex Learning Trust.",
-    image: wltGif,
+    image: wltMov,
     link: "https://wessexlearningtrust.co.uk/",
     alt: "preview of Wessex Learning Trust Website"
   }
@@ -36,7 +36,7 @@ export const projects = [
     subtitle: "Javascript/API",
     description:
       "A movie watchlist app that I created by using the OMDB API",
-    image: moviesGif,
+    image: moviesMov,
     link: "https://movie-db-watchlist.netlify.app/",
     alt: "preview of movie watchlist app"
   },
@@ -45,7 +45,7 @@ export const projects = [
     subtitle: "Javascript/API",
     description:
       "A small colour scheme generator app I built to practice working with APIs",
-    image: colorGif,
+    image: colourMov,
     link: "https://colour-scheme-app.netlify.app/",
     alt: "preview of colour scheme app"
   },
@@ -54,7 +54,7 @@ export const projects = [
     subtitle: "Javascript/React/Vite",
     description:
       "A simple static React app I made to practice working with React and Vite",
-    image: travelGif,
+    image: travelMov,
     link: "https://my-travel-react-app.netlify.app/",
     alt: "preview of travel journey app"
   },
@@ -63,7 +63,7 @@ export const projects = [
     subtitle: "Javascript/Tailwind/Parcel",
     description:
       "A simple game I built to improve my Javascript knowledge",
-    image: rockPaperScissorsGif,
+    image: rockPaperScissorsMov,
     link: "https://adamggrover.github.io/rock-paper-scissors-game/",
     alt: "preview of rock, paper, scissors game"
   },

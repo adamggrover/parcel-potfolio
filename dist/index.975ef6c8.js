@@ -27160,74 +27160,76 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _about = require("./components/About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
-var _work = require("./components/Work");
-var _workDefault = parcelHelpers.interopDefault(_work);
 var _contact = require("./components/Contact");
 var _contactDefault = parcelHelpers.interopDefault(_contact);
 var _navbar = require("./components/Navbar");
 var _navbarDefault = parcelHelpers.interopDefault(_navbar);
-var _projects = require("./components/Projects");
-var _projectsDefault = parcelHelpers.interopDefault(_projects);
 var _skills = require("./components/Skills");
 var _skillsDefault = parcelHelpers.interopDefault(_skills);
 var _foot = require("./components/Foot");
 var _footDefault = parcelHelpers.interopDefault(_foot);
+const Work = /*#__PURE__*/ (0, _reactDefault.default).lazy(()=>require("916928975fd0a811"));
+_c = Work;
+const Projects = /*#__PURE__*/ (0, _reactDefault.default).lazy(()=>require("5c2b51e067a2bacc"));
+_c1 = Projects;
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
         className: "text-gray-200 bg-neutral-50",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 16,
+                lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 17,
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _workDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Work, {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 18,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 19,
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Projects, {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 20,
+                lineNumber: 19,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 21,
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footDefault.default), {}, void 0, false, {
                 fileName: "src/App.js",
-                lineNumber: 22,
+                lineNumber: 21,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.js",
-        lineNumber: 15,
+        lineNumber: 14,
         columnNumber: 5
     }, this);
 }
-_c = App;
-var _c;
-$RefreshReg$(_c, "App");
+_c2 = App;
+var _c, _c1, _c2;
+$RefreshReg$(_c, "Work");
+$RefreshReg$(_c1, "Projects");
+$RefreshReg$(_c2, "App");
 
   $parcel$ReactRefreshHelpers$f00f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Navbar":"5EEXV","./components/Projects":"16pwG","./components/Skills":"OHDzu","react":"21dqq","./components/Foot":"dmc9W","./components/Work":"cJuRA"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Navbar":"5EEXV","./components/Skills":"OHDzu","react":"21dqq","./components/Foot":"dmc9W","916928975fd0a811":"hCQL1","5c2b51e067a2bacc":"jDECD"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -35425,236 +35427,7 @@ function XMarkIcon({ title, titleId, ...props }, svgRef) {
 const ForwardRef = _react.forwardRef(XMarkIcon);
 exports.default = ForwardRef;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"16pwG":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$ec2f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$ec2f.prelude(module);
-
-try {
-// src/components/Projects.js
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Projects);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _solid = require("@heroicons/react/20/solid");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _data = require("../data");
-function Projects() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "projects",
-        className: "text-gray-400 bg-zinc-50 body-font",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container px-6 pt-24 mx-auto text-left max-w-5xl font-body  ",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 12,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex flex-col w-full mt-1",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: "text-sm font-medium mb-10 mt-2 text-primary",
-                            children: "MINI-PROJECTS"
-                        }, void 0, false, {
-                            fileName: "src/components/Projects.js",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: " leading-relaxed text-sm mb-10 text-gray-400",
-                            children: "Small personal projects I've completed in my own time to help further my knowledge and have some fun."
-                        }, void 0, false, {
-                            fileName: "src/components/Projects.js",
-                            lineNumber: 17,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 13,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex flex-wrap -m-4",
-                    children: (0, _data.projects).map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: project.link,
-                            target: "_blank",
-                            className: "sm:w-1/2 w-100 p-4",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex relative",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        alt: project.alt,
-                                        className: "absolute inset-0 w-full h-full object-cover object-top border-slate-300 border-solid border-2",
-                                        src: project.image
-                                    }, void 0, false, {
-                                        fileName: "src/components/Projects.js",
-                                        lineNumber: 29,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "px-8 py-10 relative z-10 w-full h-72 border-1 border-gray-800 bg-primary opacity-0 hover:opacity-100",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                                className: "tracking-widest text-sm title-font font-medium text-amber-400 mb-1",
-                                                children: project.subtitle
-                                            }, void 0, false, {
-                                                fileName: "src/components/Projects.js",
-                                                lineNumber: 36,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                                className: "title-font text-lg font-medium text-white mb-3",
-                                                children: project.title
-                                            }, void 0, false, {
-                                                fileName: "src/components/Projects.js",
-                                                lineNumber: 39,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "leading-relaxed",
-                                                children: project.description
-                                            }, void 0, false, {
-                                                fileName: "src/components/Projects.js",
-                                                lineNumber: 42,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/Projects.js",
-                                        lineNumber: 35,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/Projects.js",
-                                lineNumber: 28,
-                                columnNumber: 15
-                            }, this)
-                        }, project.image, false, {
-                            fileName: "src/components/Projects.js",
-                            lineNumber: 23,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "src/components/Projects.js",
-                    lineNumber: 21,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Projects.js",
-            lineNumber: 11,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/Projects.js",
-        lineNumber: 9,
-        columnNumber: 5
-    }, this);
-}
-_c = Projects;
-var _c;
-$RefreshReg$(_c, "Projects");
-
-  $parcel$ReactRefreshHelpers$ec2f.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../data":"9kapS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@heroicons/react/20/solid":"biQa5"}],"9kapS":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "work", ()=>work);
-parcelHelpers.export(exports, "projects", ()=>projects);
-parcelHelpers.export(exports, "skills", ()=>skills);
-var _rockPaperScissorsGif = require("./assets/rock-paper-scissors.gif");
-var _rockPaperScissorsGifDefault = parcelHelpers.interopDefault(_rockPaperScissorsGif);
-var _fairlandsGifGif = require("./assets/fairlands-gif.gif");
-var _fairlandsGifGifDefault = parcelHelpers.interopDefault(_fairlandsGifGif);
-var _wltGif = require("./assets/wlt.gif");
-var _wltGifDefault = parcelHelpers.interopDefault(_wltGif);
-var _colourApiGif = require("./assets/colour-api.gif");
-var _colourApiGifDefault = parcelHelpers.interopDefault(_colourApiGif);
-var _travelGif = require("./assets/travel.gif");
-var _travelGifDefault = parcelHelpers.interopDefault(_travelGif);
-const work = [
-    {
-        title: "Fairlands Middle School",
-        subtitle: "WordPress/Bootstrap/ACF",
-        description: "Custom WordPress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
-        image: (0, _fairlandsGifGifDefault.default),
-        link: "https://fairlandsmiddleschool.co.uk",
-        alt: "preview of Fairlands Middle School Website"
-    },
-    {
-        title: "Wessex Learning Trust",
-        subtitle: "WordPress/Bootstrap/ACF",
-        description: "Custom WordPress theme build for the Wessex Learning Trust.",
-        image: (0, _wltGifDefault.default),
-        link: "https://adamggrover.github.io/rock-paper-scissors-game/",
-        alt: "preview of Wessex Learning Trust Website"
-    }
-];
-const projects = [
-    {
-        title: "Colour Scheme Generator",
-        subtitle: "Javascript/API",
-        description: "A small colour scheme generator app I built to practice working with APIs",
-        image: (0, _colourApiGifDefault.default),
-        link: "https://colour-scheme-app.netlify.app/",
-        alt: "preview of colour scheme app"
-    },
-    {
-        title: "My Travel Journal",
-        subtitle: "Javascript/React/Vite",
-        description: "A simple static React app I made to practice working with React and Vite",
-        image: (0, _travelGifDefault.default),
-        link: "https://my-travel-react-app.netlify.app/",
-        alt: "preview of travel journey app"
-    },
-    {
-        title: "Rock, Paper, Scissors Game",
-        subtitle: "Javascript/Tailwind/Parcel",
-        description: "A simple game I built to improve my Javascript knowledge",
-        image: (0, _rockPaperScissorsGifDefault.default),
-        link: "https://adamggrover.github.io/rock-paper-scissors-game/",
-        alt: "preview of rock, paper, scissors game"
-    }
-];
-const skills = [
-    "HTML",
-    "CSS - SASS, Bootstrap, Tailwind",
-    "Javascript",
-    "NPM",
-    "Gulp",
-    "WordPress",
-    "Webpack/Parcel",
-    "PHP",
-    "React",
-    "Git"
-];
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/fairlands-gif.gif":"wSK8b","./assets/wlt.gif":"78Owd","./assets/rock-paper-scissors.gif":"7ecpY","./assets/colour-api.gif":"5Wc3o","./assets/travel.gif":"9Tjd8"}],"wSK8b":[function(require,module,exports) {
-module.exports = require("2c0ccf483e088c26").getBundleURL("bLxZJ") + "fairlands-gif.d98bf0cd.gif" + "?" + Date.now();
-
-},{"2c0ccf483e088c26":"lgJ39"}],"78Owd":[function(require,module,exports) {
-module.exports = require("5ada7644bdda0da2").getBundleURL("bLxZJ") + "wlt.a9fd377d.gif" + "?" + Date.now();
-
-},{"5ada7644bdda0da2":"lgJ39"}],"7ecpY":[function(require,module,exports) {
-module.exports = require("c87258f4b33a385c").getBundleURL("bLxZJ") + "rock-paper-scissors.33fb747a.gif" + "?" + Date.now();
-
-},{"c87258f4b33a385c":"lgJ39"}],"5Wc3o":[function(require,module,exports) {
-module.exports = require("dd8274f8de352193").getBundleURL("bLxZJ") + "colour-api.2cdaa6f2.gif" + "?" + Date.now();
-
-},{"dd8274f8de352193":"lgJ39"}],"9Tjd8":[function(require,module,exports) {
-module.exports = require("ef5f86d0521c0c54").getBundleURL("bLxZJ") + "travel.d23f740e.gif" + "?" + Date.now();
-
-},{"ef5f86d0521c0c54":"lgJ39"}],"OHDzu":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"OHDzu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$14cb = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35755,7 +35528,108 @@ $RefreshReg$(_c, "Skills");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","react":"21dqq","../data":"9kapS","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@heroicons/react/20/solid":"biQa5"}],"dmc9W":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","react/jsx-dev-runtime":"iTorj","react":"21dqq","../data":"9kapS","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@heroicons/react/20/solid":"biQa5"}],"9kapS":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "work", ()=>work);
+parcelHelpers.export(exports, "projects", ()=>projects);
+parcelHelpers.export(exports, "skills", ()=>skills);
+var _rockPaperScissorsWebp = require("./assets/rock-paper-scissors.webp");
+var _rockPaperScissorsWebpDefault = parcelHelpers.interopDefault(_rockPaperScissorsWebp);
+var _fairlandsWebp = require("./assets/fairlands.webp");
+var _fairlandsWebpDefault = parcelHelpers.interopDefault(_fairlandsWebp);
+var _wltWebp = require("./assets/wlt.webp");
+var _wltWebpDefault = parcelHelpers.interopDefault(_wltWebp);
+var _colourWebp = require("./assets/colour.webp");
+var _colourWebpDefault = parcelHelpers.interopDefault(_colourWebp);
+var _travelWebp = require("./assets/travel.webp");
+var _travelWebpDefault = parcelHelpers.interopDefault(_travelWebp);
+var _moviesWebp = require("./assets/movies.webp");
+var _moviesWebpDefault = parcelHelpers.interopDefault(_moviesWebp);
+const work = [
+    {
+        title: "Fairlands Middle School",
+        subtitle: "WordPress/Bootstrap/ACF",
+        description: "Custom WordPress theme build to operate as a template for all schools within the Wessex Learning Trust. Part of a multi-site network",
+        image: (0, _fairlandsWebpDefault.default),
+        link: "https://fairlandsmiddleschool.co.uk",
+        alt: "preview of Fairlands Middle School Website"
+    },
+    {
+        title: "Wessex Learning Trust",
+        subtitle: "WordPress/Bootstrap/ACF",
+        description: "Custom WordPress theme build for the Wessex Learning Trust.",
+        image: (0, _wltWebpDefault.default),
+        link: "https://wessexlearningtrust.co.uk/",
+        alt: "preview of Wessex Learning Trust Website"
+    }
+];
+const projects = [
+    {
+        title: "Movie Watchlist Creator",
+        subtitle: "Javascript/API",
+        description: "A movie watchlist app that I created by using the OMDB API",
+        image: (0, _moviesWebpDefault.default),
+        link: "https://movie-db-watchlist.netlify.app/",
+        alt: "preview of movie watchlist app"
+    },
+    {
+        title: "Colour Scheme Generator",
+        subtitle: "Javascript/API",
+        description: "A small colour scheme generator app I built to practice working with APIs",
+        image: (0, _colourWebpDefault.default),
+        link: "https://colour-scheme-app.netlify.app/",
+        alt: "preview of colour scheme app"
+    },
+    {
+        title: "My Travel Journal",
+        subtitle: "Javascript/React/Vite",
+        description: "A simple static React app I made to practice working with React and Vite",
+        image: (0, _travelWebpDefault.default),
+        link: "https://my-travel-react-app.netlify.app/",
+        alt: "preview of travel journey app"
+    },
+    {
+        title: "Rock, Paper, Scissors Game",
+        subtitle: "Javascript/Tailwind/Parcel",
+        description: "A simple game I built to improve my Javascript knowledge",
+        image: (0, _rockPaperScissorsWebpDefault.default),
+        link: "https://adamggrover.github.io/rock-paper-scissors-game/",
+        alt: "preview of rock, paper, scissors game"
+    }
+];
+const skills = [
+    "HTML",
+    "CSS - SASS, Bootstrap, Tailwind",
+    "Javascript",
+    "NPM",
+    "Gulp",
+    "WordPress",
+    "Webpack/Parcel",
+    "PHP",
+    "React",
+    "Git"
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./assets/rock-paper-scissors.webp":"iUEhm","./assets/fairlands.webp":"iDHz4","./assets/wlt.webp":"1fxgm","./assets/colour.webp":"aasan","./assets/travel.webp":"lkuqN","./assets/movies.webp":"kmGGg"}],"iUEhm":[function(require,module,exports) {
+module.exports = require("b247cbd51cd5a7b9").getBundleURL("bLxZJ") + "rock-paper-scissors.bf9b0d7c.webp" + "?" + Date.now();
+
+},{"b247cbd51cd5a7b9":"lgJ39"}],"iDHz4":[function(require,module,exports) {
+module.exports = require("37634d0106a07f25").getBundleURL("bLxZJ") + "fairlands.f38377fe.webp" + "?" + Date.now();
+
+},{"37634d0106a07f25":"lgJ39"}],"1fxgm":[function(require,module,exports) {
+module.exports = require("e890b62dcb5b3812").getBundleURL("bLxZJ") + "wlt.122442cc.webp" + "?" + Date.now();
+
+},{"e890b62dcb5b3812":"lgJ39"}],"aasan":[function(require,module,exports) {
+module.exports = require("891cf0d847ce9e78").getBundleURL("bLxZJ") + "colour.07abc338.webp" + "?" + Date.now();
+
+},{"891cf0d847ce9e78":"lgJ39"}],"lkuqN":[function(require,module,exports) {
+module.exports = require("d6e805edee6b7290").getBundleURL("bLxZJ") + "travel.00400574.webp" + "?" + Date.now();
+
+},{"d6e805edee6b7290":"lgJ39"}],"kmGGg":[function(require,module,exports) {
+module.exports = require("5965c4c43ce89d17").getBundleURL("bLxZJ") + "movies.cf7eec97.webp" + "?" + Date.now();
+
+},{"5965c4c43ce89d17":"lgJ39"}],"dmc9W":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8e98 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35864,137 +35738,80 @@ module.exports = require("4cba5dc82b2d0032").getBundleURL("bLxZJ") + "github-ico
 },{"4cba5dc82b2d0032":"lgJ39"}],"1M7nC":[function(require,module,exports) {
 module.exports = require("6321245908582c94").getBundleURL("bLxZJ") + "linkedin-icon.8e8ac926.svg" + "?" + Date.now();
 
-},{"6321245908582c94":"lgJ39"}],"cJuRA":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$aec1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$aec1.prelude(module);
+},{"6321245908582c94":"lgJ39"}],"hCQL1":[function(require,module,exports) {
+module.exports = require("a63d7d0489e43da")(require("60cf09b201d9113a").getBundleURL("bLxZJ") + "Work.f8417a0c.js" + "?" + Date.now()).catch((err)=>{
+    delete module.bundle.cache[module.id];
+    throw err;
+}).then(()=>module.bundle.root("cJuRA"));
 
-try {
-// src/components/Work.js
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Work);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _solid = require("@heroicons/react/20/solid");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _data = require("../data");
-function Work() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "work",
-        className: "text-gray-400 bg-zinc-50 body-font",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container px-6 pt-24 mx-auto text-left max-w-5xl font-body  ",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                    fileName: "src/components/Work.js",
-                    lineNumber: 12,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex flex-col w-full mt-1",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        className: "text-sm font-medium mb-10 mt-2 text-primary",
-                        children: "Work"
-                    }, void 0, false, {
-                        fileName: "src/components/Work.js",
-                        lineNumber: 14,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/Work.js",
-                    lineNumber: 13,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex flex-wrap -m-4",
-                    children: (0, _data.work).map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: project.link,
-                            target: "_blank",
-                            className: "sm:w-1/2 w-100 p-4",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "flex relative",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        alt: project.alt,
-                                        className: "absolute inset-0 w-full h-full object-cover object-top border-slate-300 border-solid border-2",
-                                        src: project.image
-                                    }, void 0, false, {
-                                        fileName: "src/components/Work.js",
-                                        lineNumber: 29,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "px-8 py-10 relative z-10 w-full h-72 border-1 border-gray-800 bg-primary opacity-0 hover:opacity-100",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                                className: "tracking-widest text-sm title-font font-medium text-amber-400 mb-1",
-                                                children: project.subtitle
-                                            }, void 0, false, {
-                                                fileName: "src/components/Work.js",
-                                                lineNumber: 36,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                                className: "title-font text-lg font-medium text-white mb-3",
-                                                children: project.title
-                                            }, void 0, false, {
-                                                fileName: "src/components/Work.js",
-                                                lineNumber: 39,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "leading-relaxed",
-                                                children: project.description
-                                            }, void 0, false, {
-                                                fileName: "src/components/Work.js",
-                                                lineNumber: 42,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/Work.js",
-                                        lineNumber: 35,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/Work.js",
-                                lineNumber: 28,
-                                columnNumber: 15
-                            }, this)
-                        }, project.image, false, {
-                            fileName: "src/components/Work.js",
-                            lineNumber: 23,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "src/components/Work.js",
-                    lineNumber: 21,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Work.js",
-            lineNumber: 11,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/Work.js",
-        lineNumber: 9,
-        columnNumber: 5
-    }, this);
-}
-_c = Work;
-var _c;
-$RefreshReg$(_c, "Work");
+},{"a63d7d0489e43da":"61B45","60cf09b201d9113a":"lgJ39"}],"61B45":[function(require,module,exports) {
+"use strict";
+var cacheLoader = require("ca2a84f7fa4a3bb0");
+module.exports = cacheLoader(function(bundle) {
+    return new Promise(function(resolve, reject) {
+        // Don't insert the same script twice (e.g. if it was already in the HTML)
+        var existingScripts = document.getElementsByTagName("script");
+        if ([].concat(existingScripts).some(function isCurrentBundle(script) {
+            return script.src === bundle;
+        })) {
+            resolve();
+            return;
+        }
+        var preloadLink = document.createElement("link");
+        preloadLink.href = bundle;
+        preloadLink.rel = "preload";
+        preloadLink.as = "script";
+        document.head.appendChild(preloadLink);
+        var script = document.createElement("script");
+        script.async = true;
+        script.type = "text/javascript";
+        script.src = bundle;
+        script.onerror = function(e) {
+            var error = new TypeError("Failed to fetch dynamically imported module: ".concat(bundle, ". Error: ").concat(e.message));
+            script.onerror = script.onload = null;
+            script.remove();
+            reject(error);
+        };
+        script.onload = function() {
+            script.onerror = script.onload = null;
+            resolve();
+        };
+        document.getElementsByTagName("head")[0].appendChild(script);
+    });
+});
 
-  $parcel$ReactRefreshHelpers$aec1.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
+},{"ca2a84f7fa4a3bb0":"j49pS"}],"j49pS":[function(require,module,exports) {
+"use strict";
+var cachedBundles = {};
+var cachedPreloads = {};
+var cachedPrefetches = {};
+function getCache(type) {
+    switch(type){
+        case "preload":
+            return cachedPreloads;
+        case "prefetch":
+            return cachedPrefetches;
+        default:
+            return cachedBundles;
+    }
 }
-},{"react/jsx-dev-runtime":"iTorj","@heroicons/react/20/solid":"biQa5","react":"21dqq","../data":"9kapS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["icZzK","1xC6H","8lqZg"], "8lqZg", "parcelRequiref228")
+module.exports = function(loader, type) {
+    return function(bundle) {
+        var cache = getCache(type);
+        if (cache[bundle]) return cache[bundle];
+        return cache[bundle] = loader.apply(null, arguments).catch(function(e) {
+            delete cache[bundle];
+            throw e;
+        });
+    };
+};
+
+},{}],"jDECD":[function(require,module,exports) {
+module.exports = require("e122a0af0c5bf679")(require("683dc91d29f08fd3").getBundleURL("bLxZJ") + "Projects.39956c2b.js" + "?" + Date.now()).catch((err)=>{
+    delete module.bundle.cache[module.id];
+    throw err;
+}).then(()=>module.bundle.root("16pwG"));
+
+},{"e122a0af0c5bf679":"61B45","683dc91d29f08fd3":"lgJ39"}]},["icZzK","1xC6H","8lqZg"], "8lqZg", "parcelRequiref228")
 
 //# sourceMappingURL=index.975ef6c8.js.map
