@@ -14,8 +14,8 @@ export function App() {
     <main className="text-gray-200 bg-neutral-50">
       <Navbar />
       <About />
-      <Work />
       <Skills />
+      <Work />
       <Projects />
       <Contact />
       <Foot />
