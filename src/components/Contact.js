@@ -44,7 +44,7 @@ export default function Contact() {
               CONTACT
             </h1>
             <p className=" leading-relaxed text-sm mb-10 text-gray-400">
-            Whether it's about collaborating on a project, or you just want to say hi, get in touch!
+            Whether it's about collaborating on a project, or you just want to say hi, I'd love to hear from you.
           </p>
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-gray-600">
